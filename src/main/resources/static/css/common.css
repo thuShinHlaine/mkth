@@ -1,0 +1,3319 @@
+/*CSS2 Styles*/
+body {
+	background-color: #B5C4A2;
+	margin: 0 auto;
+	padding: 0;
+	font: normal 11px verdana;
+}
+
+/* for container whole including header , body and footer */
+/*.container {background-color:#B5C4A2; width:1000px; border: 1px solid #6E725C;}*/
+
+/* for header container*/
+.topbanner {
+	width: 1000px;
+	background-color: #F6F8F2;
+	color: #000000;
+	border: 1px solid #6E725C;
+	height: 50px;
+}
+
+#site-name {
+	
+}
+
+.welcome {
+	float: right;
+	text-align: right;
+	padding-top: 20px;
+	color: #FFFFFF;
+}
+
+.clientlogo {
+	float: left;
+	line-height: 20px;
+	margin: 0px 0px 0 0;
+}
+
+.homehelp {
+	float: right;
+	font: bold 11px Tahoma;
+	color: #3D4423;
+	padding-top: 65px;
+}
+
+.appNameClass {
+	float: left;
+	font: bold 20px Tahoma;
+	width: 300px;
+	padding: 10px 0px 0px 10px;
+	text-align: left
+}
+
+.welcomeClass {
+	float: left;
+	font: bold 11px Tahoma;
+	width: 300px;
+	padding: 20px;
+}
+
+.homeClass {
+	font: normal 11px verdana;
+	color: #000000;
+	text-align: right;
+	line-height: 20px
+}
+
+.preferencesClass {
+	float: right;
+	font: normal 11px verdana;
+	color: #000000;
+	text-align: right;
+	line-height: 30px;
+}
+
+.rightNavControls {
+	color: #FFFFFF;
+}
+
+#headerCalendar {
+	width: 80px;
+	height: 80px;
+	display: block;
+	background: url('../images/headercalendar.png') no-repeat;
+	position: absolute;
+	top: 5px;
+	left: 45%;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#headerCalendar .day {
+	font-weight: bold;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+#headerCalendar .date {
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#headerCalendar .month {
+	font-weight: bold;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+#breadcrumbform a, a:visited {
+	color: #000000;
+}
+
+.dummyFlowDg a, a:visited {
+	color: #000000;
+}
+
+/* for footer container */
+.footer_comp {
+	background: url("../images/footer_logo.jpg") no-repeat;
+	padding-left: 15px;
+}
+
+.bottext {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+.bottom {
+	font-size: 10px;
+	color: #000000;
+	text-align: right;
+	margin: auto;
+	clear: both;
+	width: 100%;
+	display: none;
+	position: fixed;
+	bottom: 0px;
+}
+
+/* body container part */
+.middle {
+	width: 1000px;
+	background-color: #FFFFFF;
+	padding-bottom: 0px;
+	border: 0px solid #6E725C;
+}
+
+.middleContent {
+	width: 1000px;
+	background-color: #F6F8F2;
+	float: left;
+	border: 1px solid #6E725C;
+}
+
+/* for buttons */
+.button {
+	background-image: url(../images/button.gif);
+	border: 0px;
+	width: 75px;
+	height: 17px;
+	text-align: center;
+	font: bold 10px verdana;
+}
+
+.largebutton {
+	background-image: url(../images/button.gif);
+	border: 0px;
+	width: 150px;
+	height: 17px;
+	text-align: center;
+	font: bold 10px verdana;
+}
+
+/*******************************************************************/
+.backgroundColoumColorYellow {
+	background-color: #FFFF33;
+}
+
+.backgroundColoumColorRight {
+	background-color: rgba(235, 244, 255, 1);
+}
+
+.backgroundColoumColorWhite {
+	background-color: #FFFFFF;
+}
+
+.panelGridRow {
+	text-align: left;
+	font: 11px verdana;
+	font-size: 11px;
+	border: 1px thin #000000;
+	color: #000000;
+	vertical-align: top;
+}
+
+.panelGridRow2 {
+	text-align: center;
+	font: 11px verdana;
+	font-size: 11px;
+	border: 0px;
+	color: #000000;
+	background-color: #DADADA;
+	vertical-align: top
+}
+
+.panelGridRow1 {
+	text-align: center;
+	font: 11px verdana;
+	font-size: 11px;
+	border: 0px;
+	color: #000000;
+	vertical-align: top
+}
+
+.panelGridRowV1 {
+	text-align: right;
+	font: 11px verdana;
+	font-size: 11px;
+	border: 0px;
+	color: #000000;
+	vertical-align: top
+}
+
+.panelGridRow5 {
+	text-align: left;
+	font: 11px verdana;
+	font-size: 11px;
+	border: 0px;
+	color: #000000;
+	width: 30%;
+	vertical-align: top
+}
+
+.panelGridRow13 {
+	text-align: left;
+	font: 11px verdana;
+	font-size: 11px;
+	border: 0px;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.panelGridRow14 {
+	text-align: center;
+	font: 11px verdana;
+	font-size: 11px;
+	border: 0px;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.cssClass1 {
+	width: 70%;
+	text-align: left;
+	font: 11px verdana;
+	font-size: 11px;
+}
+
+;
+.cssClass2 {
+	width: 30%;
+	text-align: left;
+	font: 11px verdana;
+	font-size: 11px;
+}
+
+;
+.tooltip-text {
+	width: 350px;
+	 height:65px;
+	cursor: arrow;
+	border-width: 2px;
+	text-align: center;
+}
+
+.standardTable_Header {
+	width: 100%;
+	background-color: #C6B284;
+}
+
+.inpanelBody {
+	width: 30%;
+	height: 180px;
+	overflow: auto;
+}
+
+.panelGroupRow {
+	text-align: left;
+	font-family: Garamond;
+	font-size: 16px;
+	border: 1px;
+}
+
+.textboxstyle22 {
+	width: 260px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle21 {
+	width: 265px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.smalltextarea {
+	width: 560px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.largetextarea {
+	width: 870px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.lartextbox {
+	width: 850px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.wordwrapStyle {
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px;
+	word-wrap: break-word;
+}
+
+.verylargetextarea {
+	width: 890px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.largertextbox {
+	width: 750px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.verylargesttextbox {
+	width: 519px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.verylargertextbox {
+	width: 417px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.largertextboxstyle11 {
+	width: 400px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.commonTextBoxStyle {
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle5 {
+	width: 200px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.outputtext {
+	width: 150px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.mediumcombo {
+	width: 100px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.outputtextbox {
+	width: 100px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.mediumtextbox {
+	width: 225px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxStyle {
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textbox {
+	width: 200px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle1 {
+	width: 150px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	background-image: none !important;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle2 {
+	width: 350px;
+	height: 18px;
+	font: 11px verdana;
+	color: #000000;
+	background-image: none !important;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle3 {
+	width: 250px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	background-image: none !important;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle4 {
+	width: 269px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	background-image: none !important;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle6 {
+	width: 500px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	background-image: none !important;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle7 {
+	width: 128px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	background-image: none !important;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.textboxstyle8 {
+	width: 125px;
+	height: 16px;
+	font: 12px verdana;
+	color: #000000;
+	background-image: none !important;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.smalltextbox {
+	width: 95px;
+	height: 18px;
+	font: 11px verdana;
+	color: #000000;
+	background-image: none !important;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.verysmalltextbox {
+	width: 50px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.calendartextbox {
+	width: 300px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.verysmallcombobox {
+	width: 100px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.combobox {
+	width: 150px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.combobox1 {
+	width: 150px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.combobox2 {
+	width: 250px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.combobox3 {
+	width: 270px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.largecombobox {
+	width: 300px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.largecombobox2 {
+	width: 305px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commoncombobox {
+	font: 12px verdana;
+	color: #000000;
+}
+
+.largecombobox3 {
+	width: 400px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.textarea {
+	width: 325px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.combotextarea {
+	font: 12px verdana;
+	color: #000000;
+	padding: 0px
+}
+
+.bedBrowserGid {
+	border: 0px solid white !important;
+}
+
+.dataGridHeader {
+	background-color: #BAA876;
+}
+
+.dataGridBorder {
+	border: none;
+	width: auto;
+	margin: 2px;
+	padding: 0px;
+}
+
+.alignVertical {
+	vertical-align: top;
+}
+
+.alignAndWrap {
+	text-align: left;
+}
+
+.navigationstyle {
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+.carddetailsText {
+	width: 20px;
+}
+
+.vertical-line {
+	display: inline;
+	background-color: #000;
+	width: 1px;
+	height: 100%;
+}
+
+.dataTableRowColumn11 {
+	background-color: yellow;
+}
+
+.dataTableRowColumn12 {
+	background-color: activeborder;
+}
+
+.dataTableRowColumn13 {
+	background-color: orange;
+}
+
+.dataTableRowColumn14 {
+	background-color: lime;
+}
+
+.patientControlTableHeader {
+	border-color: white;
+	text-align: left;
+	vertical-align: top;
+	background-color: #cacaca;
+}
+
+.panelColumbreakup {
+	width: 75%;
+	vertical-align: top;
+	position: static;
+}
+
+.panelColumbreakup1 {
+	width: 25%;
+	vertical-align: top;
+	position: static;
+}
+
+.panelAlignment1 {
+	width: 50%;
+	vertical-align: top;
+}
+
+.panelAlignment2 {
+	width: 50%;
+	vertical-align: top;
+}
+
+.withBold {
+	font-weight: bold;
+}
+
+.withOutBold {
+	font-weight: normal;
+}
+
+.colwrap {
+	white-space: normal;
+	width: 6%;
+	text-align: left;
+	word-wrap: break-word;
+}
+/********************************************************************/
+
+/* for h:panelGrid */
+/* for rows which will need label and input values */
+.altrow1 {
+	height: 20px;
+	background-color: #DBE3CC;
+	font: bold 11px verdana
+}
+
+.altrow2 {
+	height: 20px;
+	background-color: #ECF2E1;
+	font: normal 11px verdana
+}
+
+/* for table rows */
+.tablerow1 {
+	height: 20px;
+	background-color: #FFFFFF;
+	font: normal 11px verdana;
+	text-align: left
+}
+
+.tablerow2 {
+	height: 20px;
+	background-color: #EEEFEF;
+	font: normal 11px verdana;
+	text-align: left
+}
+
+/* for html elements */
+.textbox {
+	width: 155px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px;
+}
+
+.largetextbox {
+	width: 400px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px;
+}
+
+.smalltextbox {
+	width: 95px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px;
+}
+
+.calendartextbox {
+	width: 180px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+.smallcombobox {
+	width: 150px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.combobox {
+	width: 150px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.suggestionbox {
+	width: 140px;
+	height: 18px;
+	font: 12px verdana;
+	background: url(../images/search.gif) no-repeat !important;
+	background-position: 100%;
+	background-color: #FFFFFF;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding-left: 18px
+}
+
+.largecombobox {
+	width: 250px;
+	font: 12px verdana;
+	color: #000000;
+}
+
+.comboboxnowidth {
+	font: 12px verdana;
+	color: #000000;
+}
+
+.textarea {
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px;
+	font-size: 13px;
+}
+
+.textareanowidth {
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+fieldset legend {
+	color: #00f;
+	padding-bottom: 5px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	border: 0px;
+	font-size: 13px;
+}
+
+a:hover {
+	color: #FFCC33;
+	text-decoration: underline;
+}
+
+.a_disabled {
+	background-color: transparent;
+	color: #DCDCDC !important;
+	font-size: 11px;
+	padding-right: 2PX;
+}
+
+.a_active {
+	background-color: transparent;
+	color: #000 !important;
+	font-size: 11px;
+	padding-right: 2PX;
+}
+
+.image {
+	border: 0px;
+	cursor: pointer
+}
+
+.ajaxProcessIcon {
+	position: absolute;
+	right: 1px;
+	top: 10px;
+	z-index: 5;
+}
+
+#Process {
+	display: none;
+}
+
+;
+.displayLabel {
+	font-weight: bold;
+}
+
+.globalMessages {
+	position: absolute;
+	z-index: 1
+}
+
+.globalMessagesLeftAlign {
+	position: absolute;
+	left: 0px;
+	z-index: 1
+}
+
+.errorClass {
+	background-color: #FFCCCC;
+	border: 1px solid #CC0000;
+	line-height: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.infoClass {
+	background-color: #D8E4F1;
+	border: 1px solid #3C78B5;
+	line-height: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.errorClass .header {
+	background: url("../images/errorHeader.gif") no-repeat;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+.infoClass .header {
+	background: url("../images/infoHeader.gif") no-repeat;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+.errorClass .detail {
+	padding-left: 30px;
+}
+
+.infoClass .detail {
+	padding-left: 30px;
+}
+
+.warnClass {
+	background-color: #FFFCCF;
+	border: 1px solid #3C78B5;
+	line-height: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.warnClass .header {
+	background: url("../images/warning.gif") no-repeat;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+.warnClass .detail {
+	padding-left: 30px;
+}
+
+.rich-panel {
+	background-color: #F3F8FE;
+	border-width: 1px;
+	background: none;
+}
+
+.rich-panel-header {
+	background-color: #F3F8FE;
+	text-align: left;
+	border: 0px;
+	font: bold 11px verdana;
+	padding: 3px;
+}
+
+.rich-panel-body {
+	font: normal 11px verdana
+}
+
+.richPanelBodynoPadding {
+	padding: 0px
+}
+
+.smallesttextbox {
+	width: 50px;
+	height: 18px;
+	font: 12px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px;
+}
+
+.closemessage {
+	padding: 5px;
+	background: url("../images/close.gif") no-repeat;
+	float: right;
+	cursor: pointer;
+}
+
+.disabledtext {
+	color: #000 !important;
+}
+
+.tableHeaderLabel {
+	font: bold 11px verdana;
+	white-space: normal !important;
+}
+
+.tableHeaderLabel th {
+	color: #000000 !important;
+	background-image: none;
+	background-color: #F0F0F0 !important;
+	text-align: center;
+	height: 37px;
+}
+
+.tablecolwrapping {
+	white-space: normal !important;
+}
+
+.tableHeaderIcon {
+	text-align: -moz-right;
+	vertical-align: middle;
+	font: bold 9px verdana
+}
+
+.divWith50PercentLeftFloatHeader {
+	float: left;
+	width: 50%;
+	vertical-align: middle;
+}
+
+/* for rich message */
+.rich-message-marker img {
+	padding-right: 7px
+}
+
+.rich-message-label {
+	color: red
+}
+
+/* for line breakup */
+.table-row-SELECTED {
+	font-family: Verdana, sans-serif;
+	font-size: 78.0%;
+	background-color: #99FFCC;
+}
+
+.table-row {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 78.0%;
+	background-color: #f7f7f7;
+}
+
+.breakUpColumn {
+	width: 50%;
+	vertical-align: top;
+}
+
+.breakUpColumn1 {
+	width: 75%;
+	vertical-align: top;
+}
+
+.breakUpColumn2 {
+	width: 25%;
+	vertical-align: top;
+}
+
+.breakUpColumn3 {
+	width: 10%;
+	vertical-align: top;
+}
+
+.breakUpColumn4 {
+	width: 25%;
+	vertical-align: top;
+}
+
+.breakUpColumn5 {
+	width: 70%;
+	vertical-align: top;
+}
+
+.breakUpColumn6 {
+	width: 30%;
+	vertical-align: top;
+}
+
+.breakUpColumn7 {
+	width: 90%;
+	vertical-align: top;
+}
+
+.breakUpColumn8 {
+	width: 100px;
+	vertical-align: top;
+}
+
+.breakUpColumn9 {
+	width: 80%;
+	vertical-align: top;
+}
+
+.breakUpColumn10 {
+	width: 20%;
+	vertical-align: top;
+}
+
+.breakUpColumn11 {
+	width: 35%;
+	vertical-align: top;
+}
+
+.breakUpColumn12 {
+	width: 65%;
+	vertical-align: top;
+}
+
+.breakUpColumn13 {
+	width: 40%;
+	vertical-align: top;
+}
+
+.breakUpColumn14 {
+	width: 60%;
+	vertical-align: top;
+}
+
+.breakUpColumn15 {
+	width: 33%;
+	vertical-align: top;
+}
+
+.breakUpColumn16 {
+	height: 80px;
+	vertical-align: top;
+}
+
+.breakUpColumn24 {
+	width: 21%;
+	vertical-align: top;
+}
+
+.breakUpColumn25 {
+	width: 12%;
+	vertical-align: top;
+}
+
+.breakUpColumn17 {
+	width: 250px;
+	vertical-align: top;
+}
+
+.breakUpColumn18 {
+	width: 500px;
+	vertical-align: top;
+}
+
+.breakUpColumn20 {
+	width: 15%;
+	vertical-align: top;
+}
+
+.breakUpColumn21 {
+	width: 85%;
+	vertical-align: top;
+}
+
+.breakUpColumn27 {
+	width: 15%;
+	vertical-align: top;
+}
+
+.breakUpColumn118 {
+	width: 18%;
+	vertical-align: top;
+}
+
+.topAlignClass {
+	vertical-align: top;
+}
+
+.datatable {
+	background-Color: #F1F1F1;
+}
+
+.dataGridStyle {
+	text-align: left;
+	font: 10px verdana;
+	font-size: 10px;
+	border: 0px;
+	color: #000000;
+	vertical-align: top
+}
+
+.messagePanelEffect {
+	position: absolute;
+	z-index: 2
+}
+
+.messagePanelMain {
+	position: absolute;
+	left: 40%;
+	right: 40%;
+	z-index: 2
+}
+
+.messageforModalPanel {
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	z-index: 2
+}
+
+.messagePanelInlinediv {
+	position: Fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	
+	background: #999;
+	overflow: auto;
+	z-index: 2000;
+}
+
+.rich-tab-active {
+	background: #fff !important;
+	color: #303030 !important;
+}
+
+.rich-tab-inactive {
+	border-color: #fff;
+	background: rgb(237, 237, 237) !important;
+	border-width: 1px;
+	border-style: solid;
+	background-repeat: repeat-x;
+	background-position: top;
+	border-bottom-width: 0;
+	cursor: default;
+}
+
+.messagePanelInline
+	/* { width: 100%; font-family:Verdana,arial,sans-serif; font-size: 11px;} */
+	{
+	position: Fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	
+	color: black;
+	overflow: auto;
+	z-index: 2000;
+}
+
+.flowStepsWindow {
+	position: absolute;
+	right: 10px;
+	bottom: 30px;
+	z-index: 2;
+	filter: alpha(opacity = 85);
+}
+
+.searchHeaderPanel {
+	width: 200px
+}
+
+.searchHeaderColumn {
+	text-align: left
+}
+
+.searchControlColumn {
+	text-align: right
+}
+
+.star {
+	color: #FF0000
+}
+
+.note {
+	text-align: left;
+	color: #FF0000;
+	font: normal 9px verdana
+}
+
+.warningClass {
+	border: 0px
+}
+
+.rich-table-headercell {
+	text-align: left;
+}
+
+.tooltipforErrors {
+	background-color: #FF0000
+}
+
+.alignCenter {
+	text-align: center
+}
+/*.alignLeft{-moz-border-radius-topleft: 6px; -moz-border-radius-topright:6px; background-color:#dce7f5; margin-top:6px;color:#000000;text-align:left;}
+.alignRight{text-align:-moz-right; }*/
+.alignRight {
+	text-align: right;
+	padding-right: 2px;
+}
+
+.alignTop {
+	vertical-align: top;
+}
+
+.alignMiddle {
+	vertical-align: middle;
+}
+
+.alignBottom {
+	vertical-align: bottom;
+}
+
+.dashBoardPanelColumnHeaderClass {
+	width: 90%
+}
+
+.dashBoardPanelColumnMenuClass {
+	width: 10%
+}
+
+.vendorright {
+	width: 20%;
+	vertical-align: top;
+}
+
+.vendorleft {
+	width: 80%;
+	vertical-align: top;
+}
+
+.treeAcceptedClass {
+	background-color: #00FF00
+}
+
+.treeRejectedClass {
+	background-color: #FF0000
+}
+
+.treeStyleClass {
+	color: #FFFFFF;
+	background-color: #0000FF;
+	font: bold 11px verdana;
+	padding: 1px 1px 1px 1px
+}
+
+.currentSearchClass {
+	position: absolute;
+	z-index: 2;
+	background-color: #FFFFF8;
+	width: 300;
+	padding-left: 2px;
+	padding-right: 2px
+}
+
+.searchClass {
+	display: none
+}
+
+.equiWidth75perColumns {
+	width: 75%
+}
+
+.equiWidthColumns {
+	width: 50%
+}
+
+.equiWidth33perColumns {
+	width: 33%
+}
+
+.equiWidth25perColumns {
+	width: 25%
+}
+
+.equiWidth20perColumns {
+	width: 20%
+}
+
+.equiWidth16perColumns {
+	width: 16%
+}
+
+.width85columns {
+	width: 80%
+}
+
+.width70columns {
+	width: 70%
+}
+
+.width40columns {
+	width: 40%
+}
+
+.width30columns {
+	width: 30%
+}
+
+.width20columns {
+	width: 20%
+}
+
+.width15columns {
+	width: 20%
+}
+
+.newActionMenuClass {
+	background: transparent;
+	width: 30px;
+	font: bold 9px verdana
+}
+
+.divWith50PercentLeftFloat {
+	float: left;
+	width: 50%
+}
+
+.accountSummaryMatchedBalance {
+	text-align: right;
+	color: #0000FF
+}
+
+.accountSummaryNotMatchedBalance {
+	text-align: right;
+	color: #FF0000
+}
+
+.togglePanelClass {
+	font: bold 11px verdana;
+	text-align: left
+}
+
+.appNameClass {
+	float: left;
+	font: bold 22px Tahoma;
+	width: 300px;
+	padding: 10px 0px 0px 10px;
+	text-align: left
+}
+
+.success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image: url('success.png');
+}
+
+.error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('error.png');
+}
+
+.workflow-running {
+	border: 1px solid #00f;
+	position: absolute;
+}
+
+.workflow-suspend {
+	border: 1px solid #00f;
+	position: absolute;
+}
+
+.workflow-end {
+	display: none;
+}
+
+.workflow-running-header {
+	background-color: #00f;
+	color: #fff;
+	padding-left: 2px;
+}
+
+.workflow-suspend-header {
+	background-color: #00f;
+	color: #f00;
+	padding-left: 2px;
+}
+
+.workflow-end-header {
+	display: none;
+}
+
+.Running {
+	border: 1px solid #00f;
+	position: absolute;
+}
+
+.Suspend {
+	border: 1px solid #00f;
+	position: absolute;
+}
+
+.Running-header {
+	background-color: #00f;
+	color: #fff;
+	padding-left: 2px;
+}
+
+.Suspend-header {
+	background-color: #00f;
+	color: #f00;
+	padding-left: 2px;
+}
+
+.headerLabel {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.headerLabelImage {
+	background: url("../images/sprites.gif") no-repeat 0 -100px;
+}
+
+.zeroPadding {
+	padding: 0px;
+}
+
+.fiveLeftPadding {
+	padding: 5px;
+}
+
+.fivePadding {
+	padding: 5px;
+}
+
+.numeric {
+	text-align: right;
+}
+
+.rightNavTable {
+	border: 0em solid #aaa;
+}
+
+.headerTable {
+	border-top: 0.1em solid #aaa;
+	border-left: 0.1em solid #aaa;
+}
+
+.tableCell-label {
+	border-bottom: 0.1em solid #aaa;
+	border-right: 0.1em solid #aaa;
+	font-weight: bold;
+}
+
+.tableCell-value {
+	border-bottom: 0.1em solid #aaa;
+	border-right: 0.1em solid #aaa;
+}
+
+.rightNavigation {
+	background: transparent url("../images/rightnavigation_bg.gif")
+		no-repeat;
+	width: 100%;
+	padding-left: 10px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+.rightNavigation-header {
+	width: 100%;
+	height: 20px;
+	font-weight: bold;
+}
+
+.rightNavigation li {
+	background: none !important;
+	padding: 5px !important;
+}
+
+.navigationExpand {
+	background: url(../images/222222_11x11_icon_plus.gif) no-repeat center
+		right;
+	width: 22px;
+	height: 20px;
+	float: right;
+	cursor: pointer;
+	z-index: 999;
+	margin-top: 6px;
+}
+
+.navigationCollapse {
+	background: url(../images/222222_11x11_icon_minus.gif) no-repeat center
+		right;
+	width: 22px;
+	height: 20px;
+	float: right;
+	cursor: pointer;
+	z-index: 999;
+	margin-top: 6px;
+}
+
+.leftMenu {
+	width: 193px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.leftMenuHeader {
+	width: 100%;
+	height: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 6px;
+}
+
+.searchCriteriaTable, .searchCriteriaTable td {
+	border-width: 0px;
+}
+
+.searchCriteriaTableHeader {
+	color: #000;
+	font-weight: bold;
+	padding: 0px;
+	background: url('../images/toolbar_headerbg.png') repeat-x;
+}
+
+.searchCriteriaTableFooter {
+	background: none;
+}
+
+.searchCriteriaTableHeader a {
+	color: #000000;
+	padding: 2px;
+}
+
+.searchCriteriaTableHeader a:hover {
+	padding: 2px;
+	background: #DCDCDC;
+	cursor: pointer;
+}
+
+.searchTableHeaderLinks a {
+	display: block;
+}
+
+.toolbar_link {
+	color: #000000;
+	background: url('../images/toolbar_headerbg.png') repeat-x;
+	cursor: pointer;
+}
+
+.toolbar_link:hover {
+	color: #000000;
+	background: url('../images/toolbar_hover.png') repeat-x;
+	cursor: pointer;
+}
+
+.rightPanel {
+	background: url(../images/bg_mod_bot.png) no-repeat bottom;
+	width: 200px;
+	padding-bottom: 5px;
+}
+
+.rightPanelHeader {
+	background: url(../images/bg_mod_top.png) no-repeat;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.rightPanelBody {
+	border-left: 2px solid #e1d4c0;
+	border-right: 2px solid #e1d4c0;
+	border-top: 1px solid #e1d4c0;
+	padding: 10px 0px 0px 5px;
+}
+
+.rightPanel li {
+	padding: 0px;
+	background: url(../images/bg_table.jpg);
+	padding: 5px;
+}
+
+.wrapText {
+	white-space: normal !important;
+}
+
+.accountPages ul {
+	list-style: none;
+}
+
+.accountPages li {
+	width: 100px;
+	float: left;
+	list-style: none;
+	background: none;
+}
+
+.tableHeaderClass {
+	height: 22px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.rightNavigationColumn {
+	background-color: #EDEDED;
+}
+
+.rightNavigationColumn li {
+	padding: 5px;
+	background: none;
+}
+
+.rightNavigationSelected {
+	background: #FFFFFF !important;
+}
+
+.rightNavigationColumn a {
+	color: #00488f !important;
+	font-weight: bold;
+}
+
+.leftFloat {
+	float: left;
+}
+
+.rightFloat {
+	float: right;
+}
+
+.moduleName {
+	cursor: pointer;
+}
+
+.searchPanelClass {
+	border: 3px solid #eaf0f8;
+}
+
+#searchCriteriaHeader {
+	padding: 5px;
+}
+
+.boderClass {
+	border: 3px solid #eaf0f8;
+}
+
+.headerRightLink a {
+	color: #0000FF;
+}
+
+.absolutePosition {
+	position: absolute;
+}
+
+.pointerCursor {
+	cursor: pointer;
+}
+
+.actionMenu {
+	background-color: #fff;
+	z-index: 2px;
+	width: 75px;
+	text-align: left;
+	position: absolute;
+	display: none;
+}
+
+.actionMenu li {
+	background: none;
+	border: 1px solid #aaa;
+	padding: 3px;
+}
+
+.link {
+	border-bottom: 1px dashed #000000;
+}
+
+.popupClass {
+	background-color: #FFFFFF;
+	display: none;
+}
+
+.landingPageTable td1 {
+	width: 150px;
+	height: 95px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid #000000;
+}
+
+.landingPageTable td {
+	width: 150px;
+	height: 95px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landingPageHeader td {
+	border-bottom: 1px solid #cccccc;
+}
+
+.landingPageHeader #appHeading {
+	font-size: 150%;
+}
+
+/*.threadheader3 {background: url(../images/yellowheader_3.gif) no-repeat #FFFFFF;}
+.threadheader1 {background: url(../images/yellowheader_1.gif) no-repeat #FFFFFF;}
+.threadheader2 {background: url(../images/yellowheader_2.gif) repeat-x #FFF5A3;}
+
+.threadbody { padding-top:3px; background: url(../images/yellowheader_2.gif) repeat-x;}
+.threadbody_edge {background: url(../images/yellowheader_2.gif) no-repeat;}
+.threadbody1 {background:  url(../images/yellowbody_1.gif); height: 13px;}
+.threadbody2 {background:  url(../images/yellowbody_2.gif); height: 13px;}
+.threadbody3 {background:  url(../images/yellowbody_3.gif); height: 13px;}
+.threadbody4 {background:  url(../images/yellowbody_4.gif) }
+.threadbody6 {background:  url(../images/yellowbody_6.gif) }
+.threadbody7 {background:  url(../images/yellowbody_7.gif); height: 13px; }
+.threadbody8 {background:  url(../images/yellowbody_8.gif); height: 13px;}
+.threadbody9 {background:  url(../images/yellowbody_9.gif); height: 13px;}*/
+.suggestionBox-textarea {
+	background-color: #fdfdef;
+}
+
+.workBenchTable {
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+}
+
+.workBenchTableCell {
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+
+.workBenchAltrow1 {
+	height: 20px;
+	background-color: #F6F6F6;
+	font: bold 11px verdana
+}
+
+.warnClass {
+	background-color: #FACCCC;
+	border: 1px solid #CC0000;
+	line-height: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.warnClass .header {
+	background: url("../images/warnHeader.gif") no-repeat;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+.warnClass .detail {
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.formLabel {
+	font-weight: bold;
+}
+
+.cursorOverImage {
+	cursor: pointer;
+}
+
+.regGridStyle {
+	font-weight: bold;
+}
+
+.width15Columns {
+	width: 15%
+}
+
+.errorHighLightRow {
+	background-color: #FFCCCC
+}
+
+.preRegisterMessageInLine {
+	width: 100%;
+	font-family: Verdana, arial, sans-serif;
+	font-size: 11px;
+}
+
+.appointmentRepeatTable {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.leftMenuHeader {
+	background: url("../images/accordianmenu.png") repeat-x;
+	cursor: pointer;
+}
+
+.showhidelogo {
+	background: url("../images/showhidelogo.png") no-repeat;
+	padding: 1px 6px;
+	height: 16px;
+}
+
+.showlogo {
+	background-position: 0px 115%;
+}
+
+.whiteText {
+	color: #FFFFFF;
+}
+
+.zeroBorder {
+	border: 0px;
+}
+
+/* for adhoc query executor begin */
+#dataTable {
+	border-top: 1px solid #e2f6e2;
+	border-left: 1px solid #e2f6e2;
+}
+
+#dataTable td, th {
+	border-right: 1px solid #e2f6e2;
+	border-bottom: 1px solid #e2f6e2;
+}
+
+.dataTables_processing {
+	width: 20%;
+	float: left;
+}
+
+.dataTables_length {
+	width: 40%;
+	float: left;
+}
+
+.dataTables_filter {
+	text-align: right;
+}
+
+.dataTables_info {
+	width: 40%;
+	float: left;
+}
+
+.dataTables_paginate {
+	text-align: right;
+}
+
+.fg-toolbar {
+	padding: 5px;
+	height: 25px;
+}
+
+.fg-button {
+	padding: 2px 6px;
+	cursor: pointer;
+}
+/* for adhoc query executor end */
+/*tree data table */
+.treeDataTable {
+	border-top: 1px solid #e2f6e2;
+	border-left: 1px solid #e2f6e2;
+}
+
+.treeDataTable td, th {
+	border-right: 1px solid #e2f6e2;
+	border-bottom: 1px solid #e2f6e2;
+}
+
+/* Ends-----------------------------------  */
+
+/* for container whole including header , body and footer */
+.commonStyle {
+	background-color: #FFFFF8;
+	border: 1px solid #6E725C;
+}
+
+/* for header container*/
+.formStyle {
+	width: 100%;
+	font-size: 11px;
+	font-family: Verdana;
+}
+
+.labelStyle {
+	font-size: 11px;
+	font-family: Verdana;
+}
+
+.outputTextStyle {
+	font-size: 11px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
+.outputTextStyle1x {
+	font-size: 13px;
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #4285C2;
+	font-weight: bold;
+}
+
+.outputTextStyle1 {
+	font-size: 11px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #4285C2;
+}
+
+.outputTextStyle2 {
+	font-size: 12px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	color: blue;
+}
+
+.outputTextStyle3 {
+	font-size: 11px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+.outputTextStyle15 {
+	font-size: 15px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+.astrickStyle {
+	font-size: 12px;
+	font-family: 'MS Reference Sans Serif';
+	COLOR: #ff0000;
+}
+
+ 
+.gridPanelRow {
+	text-align: left;
+	font: 11px verdana;
+	font-size: 11px;
+	border: 1px;
+	color: #000000;
+}
+
+.graphicImgStyle {
+	vertical-align: middle;
+	border: 0px;
+	cursor: pointer;
+}
+
+.graphicWithoutPopinter {
+	vertical-align: middle;
+	border: 0px;
+}
+
+.soapComponentLabel {
+	color: #4285C2;
+}
+
+.soapComponentLabel1 {
+	color: #000099;
+	color: #4285C2;
+}
+
+.outputTextStyle6 {
+	font-size: 12px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+.outputTextStyle7 {
+	font-size: 11px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #CC0000;
+}
+/*comboBox*/
+.commonCombo {
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo {
+	width: 100px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo1 {
+	width: 150px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumcombo {
+	width: 120px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumcomboN7 {
+	width: 230px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumcombo10 {
+	width: 140px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumcombo2 {
+	width: 250px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumcombo200 {
+	width: 200px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumcombo4 {
+	width: 280px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonlargecombobox {
+	width: 300px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonlargecomboboxone {
+	width: 350px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumcombo3 {
+	width: 120px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonLargeMediumcombo {
+	width: 350px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonLargeMediumcombo1 {
+	width: 380px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo2 {
+	width: 165px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo3 {
+	width: 135px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo4 {
+	width: 141px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSmallMediumcombo {
+	width: 90px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumcombo1 {
+	width: 170px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumcombo175 {
+	width: 175px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo6 {
+	width: 125px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo7 {
+	width: 130px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSmallMediumcombo5 {
+	width: 258px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonsmallMediumcombo1 {
+	width: 50px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonsmallMediumcombo75 {
+	width: 75px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo10 {
+	width: 155px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSuggestionBoxStyle180 {
+	width: 180px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle315 {
+	width: 315px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo415 {
+	width: 145px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo400 {
+	width: 140px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSemiMediumcombo18 {
+	width: 116px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSuggestionBoxStyle183 {
+	width: 185px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+/*textBox*/
+.commonTextboxStyle {
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonSuggestionBoxStyle {
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+	border-style: dotted;
+	border: blue;
+}
+
+.commonSuggestionBoxStyle1 {
+	height: 15px;
+	width: 175px;
+	font: 11px verdana;
+	color: #000000;
+	border-style: dotted solid;
+	border: blue;
+}
+
+.commonSuggestionBoxStyle2 {
+	height: 15px;
+	width: 200px;
+	font: 11px verdana;
+	color: #000000;
+	border-style: dotted solid;
+	border: blue;
+}
+
+.commonSuggestionBoxStyle3 {
+	height: 15px;
+	width: 300px;
+	font: 11px verdana;
+	color: #000000;
+	border-style: dotted solid;
+	border: blue;
+}
+
+.commonSuggestionBoxStyle4 {
+	height: 15px;
+	width: 260px;
+	font: 11px verdana;
+	color: #000000;
+	border-style: dotted solid;
+	border: blue;
+}
+
+.commonSuggestionBoxStyle5 {
+	height: 15px;
+	width: 225px;
+	font: 11px verdana;
+	color: #000000;
+	border-style: dotted solid;
+	border: blue;
+}
+
+.commonSuggestionBoxStyle6 {
+	height: 15px;
+	width: 160px;
+	font: 11px verdana;
+	color: #000000;
+	border-style: dashed solid;
+	border: #FCB581;
+}
+
+.commonSuggestionBoxStyle7 {
+	height: 15px;
+	width: 190px;
+	font: 11px verdana;
+	color: #000000;
+	border-style: dashed solid;
+	border: #FCB581;
+}
+
+.commonLargeTextBox {
+	width: 553px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.inputStyleforCalendar {
+	width: 155px;
+	height: 15px;
+	font: 11px verdana;
+}
+
+.inputStyleforCalendar1 {
+	width: 325px;
+	height: 15px;
+	font: 11px verdana;
+}
+
+.inputStyleforCalendar2 {
+	width: 141px;
+	height: 15px;
+	font: 11px verdana;
+}
+
+.inputStyleforCalendar4 {
+	width: 145px;
+	height: 15px;
+	font: 11px verdana;
+}
+
+.inputStyleforCalendar5 {
+	width: 130px;
+	height: 15px;
+	font: 11px verdana;
+}
+
+.inputStyleforCalendar3 {
+	width: 100px;
+	height: 15px;
+	font: 11px verdana;
+}
+
+.inputStyleforCalendar6 {
+	width: 230px;
+	height: 15px;
+	font: 11px verdana;
+}
+
+.inputStyleforCalendar7 {
+	width: 75px;
+	height: 15px;
+	font: 11px verdana;
+}
+
+.commonSmallTextBox165 {
+	width: 165px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox {
+	width: 50px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox30 {
+	width: 30px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox1 {
+	width: 150px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox2 {
+	width: 159px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox3 {
+	width: 141px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox7 {
+	width: 170px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox6 {
+	width: 160px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox4 {
+	width: 100x;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox5 {
+	width: 75px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commomSmallTextBox125 {
+	width: 125px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonSemiMediumTextboxStyle {
+	width: 175px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle {
+	width: 160px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle10 {
+	width: 190px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle11 {
+	width: 150px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle1 {
+	width: 210px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle2 {
+	width: 350px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle6 {
+	width: 300px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle5 {
+	width: 380px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonSemiMediumTextboxStyle1 {
+	width: 325px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle3 {
+	width: 200px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle4 {
+	width: 258px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle1 {
+	width: 210px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMediumTextboxStyle2 {
+	width: 325px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonLargeTextboxStyle {
+	width: 507px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonLargeTextboxStyle2 {
+	width: 530px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonLargeTextboxStyle1 {
+	width: 640px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonSMTextboxStyle {
+	width: 100px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonSMTextboxStyle1 {
+	width: 145px;
+	height: 23px !important;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonSemiLargeTextboxStyle {
+	width: 407px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonTextBox6 {
+	width: 115px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonTextBox1 {
+	width: 225px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonVeryLargeTextBox {
+	width: 655px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonVeryLargeTextBox1 {
+	width: 700px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commomSmallTextBox10 {
+	width: 160px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonMiniTextBox {
+	width: 79px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.crNoPatientControlTextBox {
+	width: 120px;
+	height: 20px;
+	font-size: 16px;
+	background: #FFFFCC;
+	font-weight: bold;
+	text-align: right
+}
+/*inputText Area*/
+.breakUpColumninvoice {
+	vertical-align: top;
+}
+
+.breakUpColumninvoice1 {
+	text-align: right;
+	vertical-align: top;
+}
+
+.inputTextArea {
+	font: 11px verdana;
+	color: #000000;
+	width: 800px;
+}
+
+.inputTextArea1 {
+	font: 11px verdana;
+	color: #000000;
+	width: 770px;
+}
+
+.inputTextArea2 {
+	font: 11px verdana;
+	color: #000000;
+	width: 180px;
+}
+
+.inputTextArea3 {
+	font: 11px verdana;
+	color: #000000;
+	width: 700px;
+}
+
+.inputTextArea4 {
+	font: 11px verdana;
+	color: #000000;
+	width: 400px;
+}
+
+.inputTextArea5 {
+	font: 11px verdana;
+	color: #000000;
+	width: 500px;
+}
+
+.commonSemiLargeTextboxStyle {
+	width: 407px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.commonVeryLargeTextboxStyle {
+	width: 600px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.smallTextBoxStyle {
+	width: 260px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.smallInputTextBox {
+	width: 20px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.smallInputTextBox1 {
+	width: 40px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.smallInputTextBox2 {
+	width: 100px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.smallInputTextBox3 {
+	width: 160px;
+	height: 15px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.smallTextArea {
+	height: 185px;
+	width: 300px;
+	font: 11px verdana;
+	color: #000000;
+}
+
+.adminReqlartextbox {
+	width: 700px;
+	height: 18px;
+	font: 11px verdana;
+	color: #000000;
+	border: solid 1px #CCCCCC;
+	padding: 0px
+}
+
+/* Command Link */
+.commandLinkStyle {
+	color: blue;
+	font-size: 11px;
+	font-family: Verdana;
+	font-color: blue;
+}
+
+.commandLinkStyle2 {
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	background: blue;
+	text-decoration: underline;
+	color: white;
+}
+/* Data Table Column size */
+.columnBrake1 {
+	WORD-BREAK: BREAK-ALL;
+	width: 1200px;
+}
+
+.columnBrake {
+	WORD-BREAK: BREAK-ALL;
+	width: 350px;
+}
+
+.datatableColumnWidth {
+	width: 20px;
+}
+
+.columnBreak1 {
+	WORD-BREAK: BREAK-ALL;
+	width: 250px;
+}
+
+.commonTableColumns {
+	width: 70px;
+}
+
+.commonTableColumns1 {
+	width: 50px;
+}
+
+.commonSmalltextboxes {
+	width: 50px;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.commonSmalltextboxes1 {
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+.soapStyle {
+	font-size: 20px;
+	font-weight: bold
+}
+
+.queueNoStyle {
+	font-size: 20px;
+	font-weight: bold;
+	background: #FFFFCC;
+}
+
+.totalAmountStyle {
+	font-size: 16px;
+	font-weight: bold;
+	background: #FFFFCC;
+}
+
+.TextBoxYellowStyle {
+	font-size: 11px;
+	font-weight: bold;
+	background: #FFFFCC;
+}
+
+.qNoFontStyle {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.redfontStyle {
+	font-size: 16;
+	font-weight: bold;
+	color: red;
+}
+
+;
+.blackFontStyle {
+	font-size: 16;
+	font-weight: bold;
+}
+
+;
+.colClass1 {
+	width: 15%;
+}
+
+.colClass2 {
+	width: 85%;
+}
+
+.colClass3 {
+	width: 5%;
+	vertical-align: top;
+}
+
+.colClass4 {
+	width: 95%;
+	vertical-align: top;
+}
+
+.colClass5 {
+	width: 15.5%;
+}
+
+.commonWidth {
+	width: 130px;
+}
+
+.colClass6 {
+	width: 10%;
+	text-align: right;
+	vertical-align: top
+}
+
+.colClass7 {
+	width: 90%;
+	text-align: right;
+	vertical-align: top
+}
+
+.colClass8 {
+	width: 40%;
+	text-align: right;
+	vertical-align: top
+}
+
+.colClass9 {
+	width: 200px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.colClass10 {
+	width: 250px;
+	text-align: right;
+	vertical-align: middle
+}
+
+.colClass11 {
+	width: 200px;
+	text-align: left;
+	vertical-align: middle
+}
+
+.colClass12 {
+	text-align: left;
+	vertical-align: middle;
+}
+
+.colClass13 {
+	width: 20%;
+	text-align: right;
+	vertical-align: top
+}
+
+.colClassPatientControlImage {
+	width: 10%;
+	vertical-align: middle;
+}
+
+.colClassPatientControlData {
+	width: 45%
+}
+
+.colClassPatientControlDataDetail {
+	width: 30%
+}
+
+.colClassPatientControlAllergyData {
+	width: 15%
+}
+
+.textStyle {
+	color: threeddarkshadow;
+	font-size: 12px;
+	font-family: Verdana;
+	
+}
+
+.textColorOrangeStyle {
+	color: orange;
+	font: 13px Arial;
+	font-weight: bold;
+}
+
+.textColorRedStyle {
+	color: red;
+	font: 13px Arial;
+	font-weight: bold;
+}
+
+.textColorSkyblueStyle {
+	color: skyblue;;
+	font: 13px Arial;
+	font-weight: bold;
+}
+
+.textColorYellowStyle {
+	color: yellow;
+	font: 13px Arial;
+	font-weight: bold;
+}
+
+.textColorGreenStyle {
+	color: green;
+	font: 13px Arial;
+	font-weight: bold;
+}
+
+.textColorMaroonStyle {
+	color: maroon;
+	font: 13px Arial;
+	font-weight: bold;
+}
+
+.textColorMaroon {
+	color: #990000;
+	font-weight: bold
+}
+
+.textColorRedMaroon {
+	color: #CC0000;
+	font-weight: bold
+}
+
+.textColorGreen {
+	color: #339900;
+	font-weight: bold
+}
+
+.textColorRed {
+	color: red;
+	font-weight: bold
+}
+
+.richPanelColorOrangeStyle {
+	width: 20px;
+	background-color: orange;
+}
+
+.richPanelColorRedStyle {
+	width: 20px;
+	background-color: red;
+}
+
+.richPanelColorSkyblueStyle {
+	width: 20px;
+	background-color: skyblue;
+}
+
+.richPanelColorYellowStyle {
+	width: 20px;
+	background-color: yellow;
+}
+
+.richPanelColorGreenStyle {
+	width: 20px;
+	background-color: green;
+}
+
+.yellowBackgroundRow {
+	background-color: yellow;
+}
+
+.richTabBackgroundColor {
+	background-color: white;
+}
+
+.balanceAmountStyle {
+	color: #000099;
+	font-weight: bold;
+	text-align: right;
+}
+
+.patientControlBackgroundImage {
+	background-image: transparent url("../images/rightnavigation_bg.gif")
+		no-repeat;
+}
+
+.patientControlBlueColor {
+	color: blue;
+	font-weight: bold
+}
+
+.patientControlMaroonColor {
+	color: #804040;
+	font-weight: bold
+}
+
+.patientControlRedColor {
+	color: #CC0000;
+	font-weight: bold
+}
+
+.greenboxheader1 {
+	background-image: url("../images/greenboxheader_01.png");
+	background-repeat: no-repeat;
+}
+
+.greenboxheader2 {
+	background-image: url("../images/greenboxheader_02.png");
+	background-repeat: repeat-x;
+}
+
+.greenboxheader3 {
+	background-image: url("../images/greenboxheader_03.png");
+	background-repeat: no-repeat;
+}
+
+.greenboxbody2 {
+	background-image: url("../images/greenboxbody_01.png");
+	background-repeat: repeat-y;
+}
+
+.greenboxbody4 {
+	background-image: url("../images/greenboxbody_02.png");
+	background-repeat: repeat;
+}
+
+.greenboxbody6 {
+	background-image: url("../images/greenboxbody_03.png");
+	background-repeat: repeat-y;
+}
+
+.greenboxbody8 {
+	background-image: url("../images/greenboxfooter_02.png");
+	background-repeat: repeat-x;
+}
+
+.pinkboxheader1 {
+	background-image: url("../images/pinkboxheader_01.png");
+	background-repeat: no-repeat;
+}
+
+.pinkboxheader2 {
+	background-image: url("../images/pinkboxheader_02.png");
+	background-repeat: repeat-x;
+}
+
+.pinkboxheader3 {
+	background-image: url("../images/pinkboxheader_03.png");
+	background-repeat: no-repeat;
+}
+
+.pinkboxbody2 {
+	background-image: url("../images/pinkboxbody_01.png");
+	background-repeat: repeat-y;
+}
+
+.pinkboxbody4 {
+	background-image: url("../images/pinkboxbody_02.png");
+	background-repeat: repeat;
+}
+
+.pinkboxbody6 {
+	background-image: url("../images/pinkboxbody_03.png");
+	background-repeat: repeat-y;
+}
+
+.pinkboxbody8 {
+	background-image: url("../images/pinkboxfooter_02.png");
+	background-repeat: repeat-x;
+}
+
+.novisitrecord {
+	color: threeddarkshadow;
+	font-size: 15px;
+	font-family: Verdana;
+	font-weight: bold;
+	background-color: pink;
+}
+
+.panelGridBgColorBilling {
+	background-color: FF8D1C
+}
+
+.outputTextHeading {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.outputText {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.orderAmount {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.labresultViewDate {
+	color: #B30000;
+	font-weight: bold
+}
+
+.labresultViewTime {
+	color: #000084;
+	font-weight: bold
+}
+
+.labresultViewHeader {
+	font-size: 13px;
+	font-weight: bold
+}
+
+.patientdialebel {
+	color: #000099;
+	font-weight: bold
+}
+
+.appScheduleBackGroundColor {
+	background-color: #CCCCCC;
+}
+
+.clickedlink {
+	color: maroon;
+	font-weight: bold
+}
+
+.unclickedlink {
+	color: blue;
+	font-weight: bold;
+}
+
+.intakefluidheader {
+	font-size: 16px;
+	font-family: Trebuchet MS, sans-serif;
+	font-weight: bold;
+	color: #006666;
+}
+
+.outputfluidheader {
+	font-size: 16px;
+	font-family: Trebuchet MS, sans-serif;
+	font-weight: bold;
+	color: #FF0066;
+}
+
+.summaryfluidheader {
+	font-size: 16px;
+	font-family: Trebuchet MS, sans-serif;
+	font-weight: bold;
+	color: #3300CC;
+}
+
+.newdrugtablerow {
+	height: 15px;
+	background-color: #FFFFFF;
+	font: normal 11px verdana;
+	text-align: left;
+}
+
+.rowExpandClass {
+	background: url("../images/expand.gif") top left;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
+.rowCollapseClass {
+	background-image: url("../images/collapse.gif");
+}
+
+.headerRow th, .headerRow td {
+	font-weight: bold;
+}
+
+.quarterWidthDivleft {
+	width: 30%;
+}
+
+.quarterWidthDivright {
+	width: 70%;
+}
+
+.halfWidthLeftFloatingDiv {
+	float: left;
+}
+
+.buttonStyleForCpoe {
+	border-color: #C0C0C0;
+	font-size: 12px;
+	font-family: Arial, Verdana, sans-serif;
+	color: #FFF;
+	background-color: #1D7CA8;
+	border: none;
+	border-radius: 4px;
+	padding: 5px 7px;
+	background-image:
+		url(/rhis/a4j/g/3_3_3.Finalorg.richfaces.renderkit.html.images.ButtonBackgroundImage/DATB/eAFjYGDgfnpk8tZSLyYAEuYDvg__.jsf);
+	
+}
+
+.buttonStyleForCpoe1 {
+	font-family: Arial, Verdana, sans-serif;
+	color: #FFF;
+	height: 28px;
+	border-radius: 11px 11px 1px 1px;
+}
+
+.rich-table-cell {
+	padding: 4px 4px 6px 4px;
+	font-size: 13px !important;
+	color: #000;
+	text-align: center;
+}
+	.rich-tabpanel-content-position
+	{
+	position
+	:
+	inherit;
+} /* Added for fix of drop down menu not displaying properly in FF10*/
+.rich-menu-item {
+	color: #000000 !important;
+	text-align: left !important;
+}

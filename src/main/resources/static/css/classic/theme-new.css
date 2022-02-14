@@ -1,0 +1,1364 @@
+					/* ...CLASSICLITE... */
+
+
+html {margin:0;padding:0;height:100%}
+body {height:100%;background: #FFFFFF url("images/body_bg.gif") repeat-y -404px 0;margin:0;padding:0;color:#000;font:83%/1.5 arial,tahoma,verdana,sans-serif}
+img {border:none}
+.clear {clear:both;position:relative;font-size:0;height:0;line-height:0} 
+
+ol,ul{list-style:none;}
+ul {/*position:relative;*/margin: 0 .3em 1em 0;padding: 0;list-style-type:none;}
+ul li {padding-left: 20px;}
+
+/*
+a,a:link,a:visited,a:hover,a:active {background:transparent;text-decoration:none;cursor:pointer;padding:2px 0} 
+a:link, a:visited, a:hover, a:active {color:#E17000}
+a:hover {color:#FFFFFF;background:#E17000} 
+*/
+
+a:link, a:visited {color:#ffffff }
+h1, h2, h3, h4, h5, h6 {font-family: arial,verdana,sans-serif;margin: 1.2em 0 0}
+h1 {font-size: 156%;margin: 0}
+h2 {font-size: 116%}
+
+#header {width:100%;}
+.logo{width:459px;height:60px;float:left;background:url(images/logo_blue.png) no-repeat 0px 0px;}
+#site-name {float:left;width:500px;font-size:76%;padding: 0px;}
+#site-name h1, #site-name h2 {margin: 0 10px;line-height:1.2}
+#site-name h1 {padding: 15px 0 5px;font-size:195%;display:inline}
+#site-name h2 {display:inline;color:#999;font-style:italic}
+.hname{font-size:18px; font-family:verdana; float:left; color:#ffffff;  width:100%;}
+
+#admin-tools {font-size:86%;padding: 2px 0 0;width:300px;margin: 5px 0 0;position:absolute; top:0px; right:5px; color:#0000;}
+#admin-tools p {margin: 0;padding: 0;}
+
+#nav {font-size: 94%;clear: left;}
+#nav ul {margin:0;padding:8px 0 0;list-style:none;margin-left: 125px;}
+#nav li {float:left;margin:0;padding:0 0 0 9px;}
+#nav a {font-size: 13px;color: #ffff;
+margin: 0 0.4em 0 0;border-radius: 0.4em;-moz-transition: background-color .25s ease-in-out;
+-webkit-transition: background-color .25s ease-in-out;-o-transition: background-color .25s ease-in-out;
+-ms-transition: background-color .25s ease-in-out;transition: background-color .25s ease-in-out;
+box-shadow: inset 0 0.075em 0.25em 0 rgba(0,0,0,0.1);}
+#nav > ul a {width:auto;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#nav a {float:none;}
+/* End IE5-Mac hack */
+#nav a:hover {color:#000;}
+#nav li.active {
+			
+				color: #fff;
+				box-shadow: none;
+				border-radius: 0.4em;
+				text-shadow: -1px -1px 0px rgba(0,0,0,0.5);}
+#nav li.active a {
+				color: #fff;
+				border-radius: 0.4em;
+				box-shadow: none;
+				text-shadow: -1px -1px 0px rgba(0,0,0,0.5);}
+
+#content-wrap {border-top: 0px solid #324E7C;position:relative;height:82.6%;max-height:82.6%;_height:80.6%;}
+
+#sidebar {height:100%;float:left;width:200px;padding: 0;background: url("images/g2_sidebar_bg.gif") no-repeat 0 0;}
+#sidebar #iframe-sidebar {height:100%;width:200px;}
+#iframe-sidebar {}
+.iframed select {font-size:86%}
+
+#content {height:100%;margin: 0 0 0 30px;padding-top:26px; margin-left:15px;width: 97%;margin-top:-20px;}
+#content #iframe-content {height:100%;width:100%}
+#content a {color: #000000; font-weight: normal;}
+
+.iframed {padding-left: 14px;width: 228px;z-index: 999;height: 2000px;background: #63D9F0 url("images/bg1.png");
+padding-top: 14px;}
+.iframed h2 {color: #FFFFFF; border-top:1px solid #7B96C0;}
+.iframed-content {background: #FFFFFF url("images/content_bg_2.gif") no-repeat fixed 0 -20px;width:96%;height:90%}
+.leftMenuHeader {color: #252E6D;}
+
+#content-button-max { display:block;position:absolute;top:299px;left:-4px;width:29px;height:38px;background: transparent url("images/sprites.gif") no-repeat 0 -350px
+   /*display:block;
+           height:100%;
+               float:left;
+                width:200px;
+                padding: 0;
+                background:#transparent url("images/sprites.gif") no-repeat 0 -350px;
+                left: -1px;
+                top: 0px;*/}
+#content-button-max span {display:none}
+#content-button-min {
+	  /* display:block;
+                height:100%;
+                float:left;
+                width:200px;
+                padding: 0;
+                background:#transparent;
+                left: -1px;
+                top: 0px;*/
+	display:block;display:none;position:absolute;top:299px;left:2px;width:29px;height:38px;background: transparent url("images/sprites.gif") no-repeat 0 -300px }
+#content-button-min span {display:none}
+#content-button-max:hover {background-position: -50px -350px}
+#content-button-min:hover {background-position: -50px -300px} 
+
+.iframed li, .iframed-home li {font-size: 90%;
+				color: #000000;width: 100%;font-size: 90%;
+				color: #000000;width: 172px;padding-left: 10px;}
+.iframed ul, .iframed-home ul {margin-bottom: 6px;margin-top: -3px;background: #e6f6ff ;border-radius: 7px;
+width: 193px;}
+.iframed a:link, .iframed a:visited, .iframed a:hover, .iframed a:active {color:#000000;background:transparent;text-decoration:none;padding:0}
+.iframed a:hover, .iframed a:active {background:rgba(40, 54, 148, 0.18);}
+.rich-table-headercell {
+    background-color: #EAF0F8;
+    color:#000000;
+}
+.login-user-data
+{
+height: 23px;
+background: rgb(74, 174, 210);
+text-align: center;
+border: 1px solid rgb(224, 224, 224);
+color: rgb(255, 255, 255);
+font-size: 12px;
+font-weight: bold;
+line-height: 21px;
+}
+.settingsBtn{
+background:#f56076;
+}
+.theme_popup_Lnks{
+background-color: #f56076;
+height: 34px;
+font-weight: bold;
+color: #fff;
+text-align: center;
+padding: 10px;
+font-size: 13px;
+line-height: 16px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+.scrollbar{float: left;height: 750px;background-image:"images/bg1.png";overflow-y: scroll;margin-bottom: 25px;}
+/* PLOT */
+.link {
+	position: relative;
+	color: #FFFFFF;
+	height: 30px;
+	
+	border: 1px solid #334E7C;
+	background-color: #334E7C;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	z-index: 1;
+}
+
+.registartionPopup {
+	position: absolute;
+	padding-top: 25px;
+	padding-left: 2px;
+	padding-right: 2px;
+	top: 78px;
+	border: 1px solid #334E7C;
+	background: #334E7C;
+	text-align: center;
+	width: 500px;
+	height: 1px;
+	z-index: 3;
+	display: none;
+}
+/* END */
+
+/* =DEFINITION LISTS */
+dl {margin: 0 0 1.5em}
+dt {clear:left;font-weight:bold;margin:3px 0}
+dd {margin:3px 0;padding:0}
+dd.thumbnail {float:left;width:100px;margin-right:6px;border: 1px solid #000;margin-bottom:0}
+dd.thumbnail img {display:block}
+
+dl.dl-style1 {border-top: 1px solid #FFFFFF;font-size:86%}
+	.tab-panes dl.dl-style1 {margin-right:140px}
+dl.dl-style1 dt {float:left;clear:left;width:130px;margin:0;_height:1.5em;min-height:1.5em;border:none}
+	.tab-panes dl.dl-style1 dt {width:28%}
+dl.dl-style1 dd {width: auto;margin: 0;border-bottom: 1px solid #FFFFFF;padding: 1px 0;_height:1.5em;min-height:1.5em}
+	.tab-panes dl.dl-style1 dd {margin-left:28%;_margin-left:20%}
+	
+dl.dl-style2 {font-size:90%;margin-top:10px; color:#ffffff;}
+dl.dl-style2 dt {float:left;clear:left;width:70px;margin:0}
+dl.dl-style2 dd {margin:0;padding: 1px 0}
+
+
+.rich-toolbar-item{ background-color: #BADEFF; background-image : none;color:#000000 !important; }
+.rich-toolbar { background-color: #F3F8FE; background-image : none;color:#000000 !important; }
+.rich-table-subheader { background-color: rgb(231, 231, 231);height: 33px; }
+.leftMenuHeader {border-width: 0px;width: 180px;height: 35px;line-height: 30px;text-align: center;background: rgb(207, 207, 207) !important;}
+.searchCriteriaTableHeader {background-image: none;color: white !important;background-color: #f56076;
+border: 1px solid #fa91a2;min-height: 31px;border-top-left-radius: 4px;border-top-right-radius: 4px;font-weight: normal;font-size: 15px;}
+
+.rich-toolbar-item{ background-color: #dddddd; background-image : none;color:#000000 !important; }
+.rich-toolbar {background-color: #DDDDDD; background-image : none;color:#000000 !important; }
+.rich-panel-header{background-color: #A4ACB3;border-top-left-radius: 4px;border-top-right-radius: 4px;background-image: none;color: #000000 !important;height: 26px;}
+.simpleTogglePanelHeader {background-color: #D8D8D8; color:#000000; border:0px;background-image: none;}
+.simpleTogglePanelBody {background-color: #FFFFFF !important;}
+
+div#inner { margin: 0; background: #D3D3D3; padding: 10px; border:0; zoom:1;-moz-border-radius: 8px 8px 8px 8px; -webkit-border-radius: 8px 8px 8px 8px;}
+div#outer { margin: 5px; background: #72a0cf; padding: 2px; width: 98%;-moz-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;}
+
+.quick_tab {background: rgb(233, 233, 233);margin-left:15px; margin-right:-10px; color:#292929; margin-top:-3px;text-align:left; font-size:12px; width:168px;height: 30px;line-height: 27px;}
+.task_tab {background: rgb(233, 233, 233); margin-right:-25px;color:#292929;text-align:left; font-size:12px; width:168px;height: 30px;line-height: 27px;}
+.pref_tab {background: rgb(233, 233, 233); margin-left:0px;color:#292929;text-align:left; font-size:12px; width:168px;height: 30px;line-height: 27px;}
+.welcome_tab {background: rgb(233, 233, 233);margin-right:-10px; margin-top:0px;color:#292929;text-align:left; font-size:12px; width:168px;height: 30px;line-height: 27px;}
+
+/* DROPDOWN MENU */
+
+.flowMenu {
+
+	z-index: 1;
+	border:1px solid;
+	width: 150px;
+	text-align: left;
+	position: relative;
+	top: -45px;
+	display: none;	
+	border-radius:6px;
+}
+
+.flowMenu li {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5BB5FC), color-stop(27%,#5BA3F3), color-stop(41%,#57A0E4), color-stop(100%,#5591D3));
+	background: -webkit-linear-gradient(top, #5BB5FC 0%,#5BA3F3 27%,#57A0E4 41%,#5591D3 100%);
+	background: -moz-linear-gradient(top, #5BB5FC 0%,#5BA3F3 27%,#57A0E4 41%,#5591D3 100%);
+	background: -ms-linear-gradient(top, #5BB5FC 0%,#5BA3F3 27%,#57A0E4 41%,#5591D3 100%);
+	border: 1px solid #334e7c;
+	padding-left: 10px;}
+
+/* LANDING PAGE ICONS */
+.icon{
+	display:-moz-inline-box;
+	display:inline-block;
+	overflow:hidden;
+	background:url(images/application.png) no-repeat;
+	color:rgba(255,255,255,0);
+	vertical-align:top;
+	width:85px;
+	height:85px;
+	}
+	.iconText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		margin-top:-30px;
+		left:0px;
+		
+		cursor:pointer;
+	}
+	.iconText a{
+		color:black;
+		text-decoration:none;
+	}
+	.iconContainer{
+		width:124px;
+		height:100px;
+		text-align:center;
+	}
+
+	.icon.Emergency{background:url(images/Emergency.png) no-repeat; }
+	.icon.billing{background:url(images/billing.png) no-repeat;}
+	.icon.houseKeeping {background:url(images/houseKeeping.png) no-repeat;}
+	.icon.cssd {background:url(images/cssd.png) no-repeat;}
+	.icon.inventory{background:url(images/inventory.png) no-repeat;} 	
+	.icon.mrd{background:url(images/mrd.png) no-repeat;} 
+	.icon.registration{background:url(images/registration.png) no-repeat;} 
+	.icon.adt{background:url(images/adt.png) no-repeat;} 
+	.icon.ot{background:url(images/ot.png) no-repeat;} 	
+	.icon.patientservices{background:url(images/patientservices.png) no-repeat;} 	
+
+	.icon.procurement{background:url(images/procurement.png) no-repeat;} 	
+	.icon.budget{background:url(images/budget.png) no-repeat;} 
+	.icon.patientCare{background:url(images/patientCare.png) no-repeat;} 	
+	.icon.scm{background:url(images/scm.png) no-repeat;}	
+	.icon.diet{background:url(images/diet.png) no-repeat;} 	
+	.icon.finance{background:url(images/finance.png) no-repeat;} 
+	.icon.sourcing{background:url(images/sourcing.png) no-repeat;} 	
+	/*.icon.services{background:url(images/services-new.png) no-repeat;}*/
+	.icon.pharmacy{background:url(images/pharmacy.png) no-repeat;}
+	.icon.bloodbank{background:url(images/bloodbank.png) no-repeat;}	
+
+	.icon.linen{background:url(images/linen_or_laundry.png) no-repeat;}
+	.icon.fixedasset{background:url(images/fixedasset.png) no-repeat;}	
+	.icon.maintenance{background:url(images/maintenance.png) no-repeat;}	
+	.icon.commons{background-position:-255px -170px;} 
+	.icon.hr{background:url(images/hr.png) no-repeat;}	
+	.icon.payroll{background:url(images/payroll.png) no-repeat;}	
+	/*.icon.ris{background-position:-593px -171px;}*/
+	.icon.ris{background-position:-1px 1px;}
+	.icon.commons{background:url(images/commons.png) no-repeat;}
+	.icon.studentepr{background:url(images/studentepr.png) no-repeat;}
+	.icon.ris{background:url(images/ris.png) no-repeat;}
+	
+/* SHORTCUT ICONS */	
+	
+		.smallIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		background:url(images/icon_sprites85x85.png) no-repeat;
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:28px;
+		height:28px;
+		cursor:pointer;
+	}
+
+	.smallIconText{
+		position:relative;top:-22px;padding-left:40px;font-weight:bold;color:#000;
+	}
+
+	.smallIcon.Emergency{background-position:-113px -254px;}
+	.smallIcon.billing{background-position:-198px -254px;}
+	.smallIcon.houseKeeping {background-position:-308px -254px;}
+	.smallIcon.linen {background-position:-282px -254px;}
+	.smallIcon.inventory{background-position:-501px -254px;} 	
+	.smallIcon.mrd{background-position:-420px -254px;}
+	.smallIcon.registration{background-position:0 -254px;}
+	.smallIcon.adt{background-position:-28px -254px;} 	
+	.smallIcon.ot{background-position:-225px -254px;} 	
+	.smallIcon.patientservices{background-position:-365px -254px;} 	
+
+	.smallIcon.procurement{background-position:-477px -254px;} 	
+	.smallIcon.budget{background-position:-587px -254px;}
+	.smallIcon.patientCare{background-position:-55px -254px;} 	
+	.smallIcon.scm{background-position:-85px -254px;} 	
+	.smallIcon.diet{background-position:-252px -254px;} 	
+	.smallIcon.finance{background-position:-560px -254px;} 	
+	.smallIcon.sourcing{background-position:-450px -254px;} 
+	.smallIcon.services{background-position:-615px -254px;}
+	.smallIcon.pharmacy{background-position:-170px -254px;}
+	.smallIcon.bloodbank{background-position:-140px -254px;} 	
+	.smallIcon.cssd{background-position:-335px -254px;} 	
+
+	.smallIcon.fixedasset{background-position:-530px -254px;} 	
+	.smallIcon.maintenance{background-position:-392px -254px;} 	
+	.smallIcon.commons{background-position:-645px -254px;} 
+	.smallIcon.hr{background-position:-645px -254px;}
+	.smallIcon.payroll{background-position:-645px -254px;}
+	.smallIcon.ris{background-position:-728px -254px;} 
+	
+/* OUTPATIENT ICONS */	
+	.OutpatientIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	
+	.OutpatienticonText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		top:0px;
+		text-align:center;
+		cursor:pointer;
+	}
+	
+	.OutpatientIcon.Preregistration{background-position:0px 0px;}
+	.OutpatientIcon.Registration{background-position:-80px 0px;}
+	.OutpatientIcon.Availability{background-position:-153px 0px;}
+	.OutpatientIcon.Paging{background-position:-227px 0px;}
+	.OutpatientIcon.Baymanagement{background-position:-153px 0px;}
+	.OutpatientIcon.Appointments{background-position:-300px 0px;}
+	.OutpatientIcon.opd{background-position:-375px 0px;}
+	
+/* INPATIENT ICONS */	
+	.InpatientIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+	
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	.InpatienticonText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		top:-22px;
+		text-align:center;
+		cursor:pointer;
+	}
+	.icon.leaveManagement{background: url(images/hr.png) no-repeat;}
+	.InpatientIcon.AdmissionReq{background-position:0px 0px;}
+	.InpatientIcon.Cost{background-position:-75px 0px;}
+	.InpatientIcon.Admission{background-position:-150px 0px;}
+	.InpatientIcon.Discharge{background-position:-225px 0px;}
+	.InpatientIcon.Transfer{background-position:-300px 0px;}
+	.InpatientIcon.Nursing{background-position:-375px 0px;}
+
+/* HR ICONS */	
+	.HRIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	.HRiconText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		top:-22px;
+		text-align:center;
+		cursor:pointer;
+	}
+	
+	.HRIcon.employee{background-position:3px 0px;}
+	.HRIcon.leave{background-position:-70px 0px;}
+	.HRIcon.approval{background-position:-148px 0px;}
+	.HRIcon.balance{background-position:-225px 0px;}
+	.HRIcon.cancel{background-position:-300px 0px;}
+	.HRIcon.update{background-position:-375px 0px;}
+
+/* PATIENTCARE ICONS */	
+
+	.PatientcareIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+
+	
+	.PatientcareIcon.DWB{background-position:0px 0px;}
+	.PatientcareIcon.CPOE{background-position:-75px 0px;}
+	.PatientcareIcon.EMR{background-position:-150px 0px;}
+	.PatientcareIcon.MRD{background-position:-225px 0px;}
+	.PatientcareIcon.Birth{background-position:-300px 0px;}
+	.PatientcareIcon.Nursing{background-position:-375px 0px;}
+	
+/* PAYROLL ICONS */	
+
+	.PayrollIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}	
+	.PayrollIcon.salary{background-position:0px 5px;}
+	.PayrollIcon.IT{background-position:-75px 5px;}
+	.PayrollIcon.payroll{background-position:-150px 5px;}
+	.PayrollIcon.loan{background-position:-225px 5px;}
+	.PayrollIcon.reimbursement{background-position:-300px 5px;}	
+	
+/* RIS ICONS */	
+
+	.RISIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		background:url(images/RIS_Sprite.png) no-repeat;
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}	
+	
+	.RISIcon.order{background-position:0px 5px;}
+	.RISIcon.report{background-position:-75px 5px;}	
+
+/* LABORATORY ICONS */	
+	.LaboratoryIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:84px;
+		height:84px;
+		cursor:pointer;
+		}
+
+	.LaboratoryIcon.serviceorder{background:url(images/lab-icon/serv_order.png) no-repeat;} 
+		.LaboratoryIcon.collectsample{background:url(images/lab-icon/collect_sampl.png) no-repeat;} 
+		.LaboratoryIcon.sendsample{background:url(images/lab-icon/send_sampl.png) no-repeat;} 
+		.LaboratoryIcon.rejectsample{background:url(images/lab-icon/reject_sampl.png) no-repeat;} 
+		.LaboratoryIcon.cancelorder{background:url(images/lab-icon/cancel_order.png) no-repeat;} 
+		.LaboratoryIcon.acceptsample{background:url(images/lab-icon/accept_sampl.png) no-repeat;} 
+		.LaboratoryIcon.resendsample{background:url(images/lab-icon/resend_sampl.png) no-repeat;} 
+		.LaboratoryIcon.retest{background:url(images/lab-icon/re-test.png) no-repeat;} 
+		.LaboratoryIcon.performtest{background:url(images/lab-icon/perform_test.png) no-repeat;} 
+		.LaboratoryIcon.resample{background:url(images/lab-icon/resampl.png) no-repeat;} 
+		.LaboratoryIcon.captureresult{background:url(images/lab-icon/capture_result.png) no-repeat;}
+		.LaboratoryIcon.automatedresult{background:url(images/lab-icon/automated_result.png) no-repeat;}
+		.LaboratoryIcon.certifyresult{background:url(images/lab-icon/certify_result.png) no-repeat;} 
+	
+/*ris iconss*/
+
+.RisIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:84px;
+		height:84px;
+		cursor:pointer;
+		}
+         .RisIcon.serviceorder{background:url(images/RHIS_ICON/RIS/Order.png) no-repeat;} 
+		 .RisIcon.collectsample{background:url(images/RHIS_ICON/RIS/Register.png) no-repeat;} 
+		 .RisIcon.sendsample{background:url(images/RHIS_ICON/RIS/Schedule.png) no-repeat;} 
+	     .RisIcon.rejectsample{background:url(images/RHIS_ICON/RIS/Arrive.png) no-repeat;} 
+	 	 .RisIcon.cancelorder{background:url(images/RHIS_ICON/RIS/InProgress.png) no-repeat;} 
+		 .RisIcon.rissix{background:url(images/RHIS_ICON/RIS/acq.png) no-repeat;} 
+		 .RisIcon.risseven{background:url(images/RHIS_ICON/RIS/AssigntoRadiologist.png) no-repeat;} 
+		 .RisIcon.riseight{background:url(images/RHIS_ICON/RIS/Report.png) no-repeat;} 
+/* EMERGENCY ICONS */	
+	.EmergencyIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+	
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+
+	
+	.EmergencyIcon.Registration{background-position:0px 0px;}
+	.EmergencyIcon.Emergency{background-position:-75px 0px;}
+	.EmergencyIcon.Triage{background-position:-150px 0px;}
+
+
+/* TRANSFUSION MEDICINE ICONS */	
+	.BloodbankIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:48px;
+		height:48px;
+		cursor:pointer;
+	}
+	
+		.BloodbankIcon.donorreg{background-position:0px 0px;}
+		.BloodbankIcon.donorscreen{background-position:-48px 0px;}
+		.BloodbankIcon.bloodbag{background-position:-96px 0px;}
+		.BloodbankIcon.donorblood{background-position:-146px 0px;}
+		.BloodbankIcon.bloodcomponent{background-position:-194px 0px;}
+		.BloodbankIcon.cellgroup{background-position:-242px 0px;}
+		.BloodbankIcon.serumgroup{background-position:-290px 0px;}
+		.BloodbankIcon.bloodgroup{background-position:-337px 0px;}
+		.BloodbankIcon.serological{background-position:-381px 0px;}
+		.BloodbankIcon.bloodcomponentreq{background-position:-430px 0px;}
+		.BloodbankIcon.bloodinventory{background-position:-480px 0px;}
+		.BloodbankIcon.redcells{background-position:-528px 0px;}
+		.BloodbankIcon.randomplatelet{background-position:-578px 0px;}
+		.BloodbankIcon.freshfrozen{background-position:-620px 0px;}
+		.BloodbankIcon.cryoprecipitate{background-position:-674px 0px;}
+		.BloodbankIcon.receiveback{background-position:-720px 0px;}
+		.BloodbankIcon.crossmatch{background-position:-766px 0px;}
+
+
+
+/* PHARMACY ICONS */
+	.PharmacyIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		margin-left: 18px;
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:84px;
+		height:84px;
+		cursor:pointer;
+	}
+
+	
+	.PharmacyIcon.IPPrescription{background:url(images/RHIS_ICON/Pharmacy/IPprescription.png) no-repeat;} 
+	.PharmacyIcon.OPPrescription{background:url(images/RHIS_ICON/Pharmacy/OPprescription.png) no-repeat;} 
+	.PharmacyIcon.Drug{background:url(images/RHIS_ICON/Pharmacy/Drugauthori.png) no-repeat;} 
+	.PharmacyIcon.IPPharmacy{background:url(images/RHIS_ICON/Pharmacy/IPpharmacy.png) no-repeat;} 
+	.PharmacyIcon.OPPharmacy{background:url(images/RHIS_ICON/Pharmacy/OPpharmacy.png) no-repeat;} 
+	.PharmacyIcon.DrugReturnReq{background:url(images/RHIS_ICON/Pharmacy/drugreturnrequest.png) no-repeat;} 
+	.PharmacyIcon.DrugReturn{background:url(images/RHIS_ICON/Pharmacy/Drugreturn.png) no-repeat;} 
+	.PharmacyIcon.DirectDrug{background:url(images/RHIS_ICON/Pharmacy/DirectDrugreturn.png) no-repeat;} 
+
+
+/* HOSPITAL ACCOUNTS ICONS */
+
+	.HospitalAccIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	.HospitalAccIconText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		top:0px;
+		text-align:center;
+		cursor:pointer;
+	}
+	
+	.HospitalAccIcon.cash{background-position:0px 0px;}
+	.HospitalAccIcon.ped{background-position:-75px 0px;}
+	.HospitalAccIcon.orders{background-position:-150px 5px;}
+	.HospitalAccIcon.Eligibility{background-position:-225px 0px;}
+	.HospitalAccIcon.Invoice{background-position:-300px 0px;}
+	.HospitalAccIcon.Refund{background-position:-375px 0px;}
+	.HospitalAccIcon.Finance{background-position:-445px 0px;}
+	.HospitalAccIcon.ClaimReq{background-position:-525px 0px;}
+	.HospitalAccIcon.Claimdispatch{background-position:-600px 0px;}
+	.HospitalAccIcon.Reconciliation{background-position:-680px 0px;}
+
+
+/* OT ICONS */
+	.OTIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+	
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+
+	
+	.OTIcon.ViewOTRequest{background-position:5px 0px;}
+	.OTIcon.OTRequest{background-position:-147px 0px;}
+	.OTIcon.DossierUnitReq{background-position:-75px 0px;}
+	.OTIcon.DossierDefinitions{background-position:-225px 0px;}
+	.OTIcon.Acutepain{background-position:-300px 0px;}
+	.OTIcon.Chronicpain{background-position:-375px 0px;}
+
+
+/* DIETARY ICONS */
+
+	.DietIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	.DietIconText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		top:-22px;
+		text-align:center;
+		cursor:pointer;
+	}
+	
+	.DietIcon.dietprescription{background-position:5px 0px;}
+	.DietIcon.dietassesment{background-position:-75px 0px;}
+	.DietIcon.dietorder{background-position:-150px 0px;}
+	.DietIcon.dietrequest{background-position:-225px 0px;}
+	.DietIcon.dietlatereq{background-position:-375px 0px;}
+	.DietIcon.dietacknowledgement{background-position:-455px 0px;}
+	.DietIcon.dietcancelreq{background-position:-300px 0px;}
+	.DietIcon.dietbilling{background-position:-535px 0px;}
+
+
+/* LINEN ICONS */
+	.LinenIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		background:url(images/linen_Sprite.png) no-repeat;
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+		
+	.LinenIcon.workorder{background-position:0px 0px;}
+	.LinenIcon.finishedgoods{background-position:-75px 0px;}
+	.LinenIcon.purchasereceipt{background-position:-150px 0px;}
+	.LinenIcon.ward{background-position:-225px 0px;}
+	.LinenIcon.laundry{background-position:-300px 0px;}
+	.LinenIcon.linen{background-position:-375px 0px;}
+
+
+/* HOUSEKEEPING ICONS */
+	.HKIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+	
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+		
+	.HKIcon.servicelocation{background-position:0px 0px;}
+	.HKIcon.servicecontract{background-position:-75px 0px;}
+	.HKIcon.servicelogbook{background-position:-150px 0px;}
+	.HKIcon.servicebill{background-position:-225px 0px;}
+
+
+
+/* CSSD ICONS */
+	.CSSDIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+		
+	.CSSDIcon.sterilereq{background-position:0px 0px;}
+	.CSSDIcon.sterilereceipt{background-position:-75px 0px;}
+	.CSSDIcon.sterilization{background-position:-150px 0px;}
+	.CSSDIcon.ward{background-position:-225px 0px;}
+	.CSSDIcon.laundry{background-position:-300px 0px;}
+	.CSSDIcon.cssd{background-position:-375px 0px;}
+
+
+/* PATIENT SERVICES ICONS */
+		.PatientserviceIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+		}
+		
+		.PatientserviceIcon.patientenq{background-position:0px 0px;}
+		.PatientserviceIcon.appointmentenq{background-position:-75px 5px;}
+		.PatientserviceIcon.investigationenq{background-position:-150px 5px;}
+		.PatientserviceIcon.inpatientenq{background-position:-225px 0px;}
+
+
+/* MAINTENANCE ICONS */
+	.MaintenanceIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+	
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	
+	.MaintenanceIconText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		top:0px;
+		text-align:center;
+		cursor:pointer;
+	}
+	
+	.MaintenanceIcon.amc{background-position:0px 0px;}
+	.MaintenanceIcon.amcindent{background-position:-75px 0px;}
+	.MaintenanceIcon.assetsanction{background-position:-145px 0px;}
+	.MaintenanceIcon.annualmaintenance{background-position:-225px 0px;}
+	.MaintenanceIcon.amcpaymentreq{background-position:-300px 0px;}
+	.MaintenanceIcon.spareparts{background-position:-375px 0px;}
+	.MaintenanceIcon.sparepartsreq{background-position:-445px 0px;}
+	.MaintenanceIcon.sparepartsissue{background-position:-525px 0px;}
+	.MaintenanceIcon.sparepartsreceipt{background-position:-600px 0px;}
+	.MaintenanceIcon.sparepartsreturn{background-position:-673px 0px;}
+	.MaintenanceIcon.incidentreport{background-position:0px -75px;}
+	.MaintenanceIcon.workorder{background-position:-75px -75px;}
+	.MaintenanceIcon.downtimesanction{background-position:-150px -75px;}
+	.MaintenanceIcon.workcompletionnote{background-position:-225px -70px;}
+	.MaintenanceIcon.workinvoice{background-position:-300px -75px;}
+	
+
+/* MRD ICONS */
+	.MRDIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+	
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+		
+	.MRDIcon.request{background-position:0px 0px;}
+	.MRDIcon.patientmedical{background-position:-75px 0px;}
+	.MRDIcon.patientfilereport{background-position:-150px 0px;}
+	.MRDIcon.patientfileissue{background-position:-225px 0px;}
+	.MRDIcon.patientfilereceipt{background-position:-300px 0px;}
+
+
+/* SOURCING ICONS */
+		.SourcingIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:48px;
+		height:48px;
+		cursor:pointer;
+		}
+		
+		.SourcingIconText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		top:0px;
+		text-align:center;
+		cursor:pointer;
+		}
+		
+		.SourcingIcon.tenderindent{background-position:0px 0px;}
+		.SourcingIcon.tender{background-position:-48px 0px;}
+		.SourcingIcon.tenderfee{background-position:-96px 0px;}
+		.SourcingIcon.bid{background-position:-146px 0px;}
+		.SourcingIcon.emdreceipt{background-position:-194px 0px;}
+		.SourcingIcon.technicalevaluation{background-position:-242px 0px;}
+		.SourcingIcon.mastersheet{background-position:-290px 0px;}
+		.SourcingIcon.emdrefund{background-position:-337px 0px;}
+		.SourcingIcon.bankguarantee{background-position:-381px 0px;}
+		.SourcingIcon.ratecontract{background-position:-434px 0px;}
+		.SourcingIcon.emddispose{background-position:-480px 0px;}
+		.SourcingIcon.emdforfeit{background-position:-530px 0px;}
+		.SourcingIcon.disposebank{background-position:-578px 0px;}
+		
+/* PROCUREMENT ICONS */
+	.ProcurementIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	
+	.ProcurementIconText{
+		position:relative;
+		font-family:Arial;
+		font-weight:bold;
+		top:0px;
+		text-align:center;
+		cursor:pointer;
+		}
+	
+	.ProcurementIcon.purchasereq{background-position:0px 0px;}
+	.ProcurementIcon.sanctionproposal{background-position:-75px 0px;}
+	.ProcurementIcon.purchaseorder{background-position:-145px 0px;}
+	.ProcurementIcon.dailyreceiptregister{background-position:-225px 0px;}
+	.ProcurementIcon.materialreceiptnote{background-position:-300px 0px;}
+	.ProcurementIcon.prworkbench{background-position:-375px 0px;}
+	.ProcurementIcon.reqforquotation{background-position:-445px 0px;}
+	.ProcurementIcon.goodsreceiptnote{background-position:-525px 0px;}
+	.ProcurementIcon.goodsinspectionnote{background-position:-600px 0px;}
+	.ProcurementIcon.outwardgatepass{background-position:-673px 0px;}
+	.ProcurementIcon.tenderindent{background-position:-75px -75px;}
+	.ProcurementIcon.purchasereceiptnote{background-position:0px -75px;}
+
+
+/* INVENTORY ICONS */
+	.InventoryIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	
+	.InventoryIcon.stockreq{background-position:0px 0px;}
+	.InventoryIcon.stockissue{background-position:-75px 0px;}
+	.InventoryIcon.stockreceipt{background-position:-155px 0px;}
+	.InventoryIcon.stockreturn{background-position:-225px 0px;}
+	.InventoryIcon.openingstock{background-position:-300px 0px;}
+	.InventoryIcon.stockledger{background-position:-375px 0px;}
+	.InventoryIcon.stockconsumption{background-position:-450px 0px;}
+	.InventoryIcon.stocktakinginit{background-position:-525px 0px;}
+	.InventoryIcon.stocktaking{background-position:-600px 0px;}
+	.InventoryIcon.invadjustment{background-position:-680px 0px;}
+
+
+/* FIXED ASSETS ICONS */
+	.FixedassetIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+	
+	.FixedassetIcon.assetpurchasereq{background-position:0px 0px;}
+	.FixedassetIcon.prworkbench{background-position:-75px 0px;}
+	.FixedassetIcon.tenderindent{background-position:-150px 0px;}
+	.FixedassetIcon.sanctionproposal{background-position:-225px 0px;}
+	.FixedassetIcon.reqforquote{background-position:-300px 0px;}
+	.FixedassetIcon.assetpurchaseorder{background-position:-375px 0px;}
+	.FixedassetIcon.assetgoods{background-position:-445px 0px;}
+	.FixedassetIcon.assetinstall{background-position:-525px 0px;}
+	.FixedassetIcon.assetpurchasereceipt{background-position:-600px 0px;}
+	.FixedassetIcon.assetcommission{background-position:-673px 0px;}
+	.FixedassetIcon.lease{background-position:0px -80px;}
+	.FixedassetIcon.assetinventory{background-position:-75px -80px;}
+
+
+/* FINIANCE ICONS */
+		.FinanceIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+		}
+	
+		.FinanceIcon.bankreconciliation{background-position:0px 0px;}
+		.FinanceIcon.audit{background-position:-75px 0px;}
+		.FinanceIcon.acctransactionreq{background-position:-155px 0px;}
+		.FinanceIcon.acctransaction{background-position:-225px 0px;}
+		.FinanceIcon.billwiseadjustment{background-position:-300px 0px;}
+		.FinanceIcon.vouchers{background-position:-375px 0px;}
+		.FinanceIcon.generalledger{background-position:-455px 0px;}
+		.FinanceIcon.letterofcredit{background-position:-525px 0px;}
+
+/* BUDGET ICONS */
+	.BudgetIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+		}
+	
+	.BudgetIcon.budgetcircular{background-position:0px 0px;}
+	.BudgetIcon.internalbudget{background-position:-75px 0px;}
+	.BudgetIcon.budgetreq{background-position:-155px 0px;}
+	.BudgetIcon.budgetallocation{background-position:-225px 0px;}
+	.BudgetIcon.budgettransfer{background-position:-300px 0px;}
+	.BudgetIcon.sanctionproposal{background-position:-375px 0px;}
+	.BudgetIcon.budgetutilisation{background-position:-450px 0px;}
+	.BudgetIcon.fundwithdrawal{background-position:-525px 0px;}
+	.BudgetIcon.fundrelease{background-position:-600px 0px;}
+
+/* SERVICES ICONS */																
+	.ServicesIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+		background:url(images/Services_Sprite.png) no-repeat;
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+	}
+		
+	.ServicesIcon.servicepurchasereq{background-position:0px 0px;}
+	.ServicesIcon.servicepurchaseorder{background-position:-75px 0px;}
+	.ServicesIcon.servicegoods{background-position:-150px 0px;}
+	.ServicesIcon.servicereq{background-position:-225px 0px;}
+	.ServicesIcon.servicepurchasereceipt{background-position:-305px 0px;}
+
+
+/* ADMINISTRATION ICONS */	
+		.AdminIcon{
+		display:-moz-inline-box;
+		display:inline-block;
+		overflow:hidden;
+	
+		font:0/0 Arial;
+		color:rgba(255,255,255,0);
+		width:75px;
+		height:75px;
+		cursor:pointer;
+		}
+			
+		.AdminIcon.configuration{background-position:0px 0px;}
+		.AdminIcon.security{background-position:-75px 0px;}
+		.AdminIcon.masters{background-position:-150px 0px;}
+		.AdminIcon.workflow{background-position:-225px 0px;}	
+		
+/******* Header Slide *******/
+a:focus {
+	outline: none;
+}
+#panel {
+	background:#439bcb;
+	min-height: 41px;	
+}
+.slide {
+	margin: 0px;
+	padding: 0px;
+}
+.btn-slide {
+	background: url(images/max-min.png) no-repeat;
+	text-align: center;
+	width: 32px;
+	height: 24px;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+.active {
+	background-position: right -24px;
+}
+
+/****** Bubble Navigation ******/
+ #bgcircle{margin-left:-225px;margin-top:-27px;position:absolute;}
+.navigation{	
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif, Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.title{
+	font-family: "Trebuchet MS", sans-serif, Arial;
+    font-size: 35px;
+    font-style: normal;
+    width:300px;
+    height:119px;
+    position:absolute;
+    top:325px;
+    left:400px;
+   /* background:transparent url(../images/banner_logo.jpg) no-repeat top left;*/
+}
+.navigation .item{
+    position:relative;
+}
+.hinaipas{
+    top:112px;
+    left:75px;
+}
+.hinaicare{
+   top:75px;
+   left:255px;
+}
+.hinailab{
+   top:103px;
+   left:455px;
+}
+.hinaimedics{
+   top:215px;
+   left:655px;
+}
+.hinaiservices{
+   top:400px;
+   left:783px;
+}
+#bgcircle a.icon{
+    width:52px;
+    height:52px;
+    position:absolute;
+    top:0px;
+    left:175px;
+    cursor:pointer;
+}
+.hinaipas a.icon{
+    background:transparent url(images/pas.png) no-repeat 0px 0px;
+}
+.hinaicare a.icon{
+    background:transparent url(images/care.png) no-repeat 0px 0px;
+}
+.hinailab a.icon{
+    background:transparent url(images/lab.png) no-repeat 0px 0px;
+}
+.hinaimedics a.icon{
+    background:transparent url(images/medics.png) no-repeat 0px 0px;
+}
+.hinaiservices a.icon{
+    background:transparent url(images/services.png) no-repeat 0px 0px;
+}
+.navigation .item a.active{
+    background-position:0px -52px;
+    margin-top:-3px;
+}
+.item img.circle{
+    position:absolute;
+    top:0px;
+    left:175px;
+    width:52px;
+    height:52px;
+    opacity:0.1;
+}
+.item h2{
+    position:absolute;
+    width:165px;
+    height:52px;
+    color:#222;
+    font-size:15px;
+    top:-15px;
+    left:225px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h2.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+#bgcircle .item ul{
+    list-style:none;
+    position:absolute;
+    top:60px;
+    left:170px;
+    display:none;
+}
+#bgcircle .item ul li a{
+    font-size:10px;
+    text-decoration:none;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:#ffffff;
+    padding:3px;
+    float:left;
+    clear:both;
+    width:150px;
+/*  text-shadow:1px 1px 1px #fff;*/
+}
+#bgcircle .item ul li a:hover{
+    background-color:#fff;
+    color:#444;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+}	
+
+/************* Filter Menu ***************/
+.demo {
+	margin-top:-32px;
+	margin-left:9px;
+}
+.demo .colors {
+  overflow: hidden;
+  margin: 20px -5px;
+  padding-left: 25px;
+  width:1000px;
+}
+.all_bg{
+	background:url(images/hinai_all_bg.png) no-repeat;
+	height:543px;
+	width:846px;
+}
+.services_bg{
+	background:url(images/hinai_services_bg.png) no-repeat;
+	height:543px;
+	width:846px;
+}
+.medics_bg{
+	background:url(images/hinai_medics_bg.png) no-repeat;
+	height:543px;
+	width:846px;
+}
+.lab_bg{
+	background:url(images/hinai_lab_bg.png) no-repeat;
+	height:543px;
+	width:846px;
+}
+.care_bg{
+	background:url(images/hinai_care_bg.png) no-repeat;
+	height:543px;
+	width:846px;
+}
+.pas_bg{
+	background:url(images/hinai_pas_bg.png) no-repeat;
+	height:543px;
+	width:846px;
+}
+.demo .colors li {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin: 10px;
+  float: left;
+/*  border: 16px solid;*/
+}
+
+.demo .hinaipas {
+  display: none;
+}
+
+.demo .hinaicare {
+  display: none;
+}
+.demo .hinailab {
+  display: none;
+}
+
+.demo .hinaimedics {
+  display: none;
+}
+
+.demo .hinaiservices {
+  display: none;
+}
+
+.demo .all {
+  display: none;
+}
+
+.left_bgmenu{
+	background:url(images/left_bgmenu.png) no-repeat;
+	margin-top:-17px;
+	margin-left:-14px;
+	height:32px;
+	width:14px;
+}
+.right_bgmenu{
+	background:url(images/right_bgmenu.png) repeat-x;	
+	margin-top:-32px;
+	margin-right:-5px;
+	height:32px;
+	width:auto;
+	/*width:414px;*/
+}
+
+a.hpas, .hpas_a{
+	display:-moz-inline-box;
+	display:inline-block;
+	overflow:hidden;
+	background:url(images/hinai_button.png) no-repeat 0 0;
+	height:27px;
+	width:109px;
+}
+
+a.hcare, .hcare_a{
+	display:-moz-inline-box;
+	display:inline-block;
+	margin-left:-4px;
+	overflow:hidden;
+	background:url(images/hinai_button.png) no-repeat -109px 0;
+	height:27px;
+	width:126px;
+}
+
+a.hlab, .hlab_a{
+	display:-moz-inline-box;
+	display:inline-block;
+	margin-left:-4px;
+	overflow:hidden;
+	background:url(images/hinai_button.png) no-repeat -235px 0;
+	height:27px;
+	width:117px;
+}
+
+a.hmedics, .hmedics_a{
+	display:-moz-inline-box;
+	display:inline-block;
+	margin-left:-4px;
+	overflow:hidden;
+	background:url(images/hinai_button.png) no-repeat -352px 0;
+	height:27px;
+	width:144px;
+}
+
+a.hservices, .hservices_a{
+	display:-moz-inline-box;
+	display:inline-block;
+	margin-left:-4px;
+	overflow:hidden;
+	background:url(images/hinai_button.png) no-repeat -496px 0;
+	height:27px;
+	width:148px;
+}
+
+a.hall, .hall_a{
+	display:-moz-inline-box;
+	display:inline-block;
+	margin-left:-4px;
+	overflow:hidden;
+	background:url(images/hinai_button.png) no-repeat -644px 0;
+	height:27px;
+	width:50px;
+}
+a.hpas:hover{background-position:0 -27px;}
+.hpas_a{background-position:0px -27px;}
+a.hcare:hover{background-position:-109px -27px;}
+.hcare_a{background-position:-109px -27px;} 
+a.hlab:hover{background-position:-235px -27px;}
+.hlab_a{background-position:-235px -27px;}
+a.hmedics:hover{background-position:-352px -27px;}
+.hmedics_a{background-position:-352px -27px;}
+a.hservices:hover{background-position:-496px -27px;}
+.hservices_a{background-position:-496px -27px;}
+a.hall:hover{background-position:-644px -27px;}
+.hall_a{background-position:-644px -27px;}	
+.orderingTab{font-size: 11.5px;padding: 5px 5px 5px 5px;margin-bottom: 0px;
+			 border-radius: 10px 10px 0px 0px;
+}

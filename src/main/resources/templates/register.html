@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link th:rel="stylesheet" th:href="@{/css/main.css}">
+<link th:rel="stylesheet" th:href="@{/css/common.css}">
+<link th:rel="stylesheet" th:href="@{/css/bootstrap/bootstrap.css}">
+<link th:rel="stylesheet" th:href="@{/css/classic/theme-new.css}">
+<link th:rel="stylesheet" th:href="@{/css/classic/theme-button.css}">
+<link th:href="@{css/bootstrap/jquery-ui.css}" rel="stylesheet" />
+<script th:src="@{js/jquery/jquery-3.6.0.js}"></script>
+<script th:src="@{js/jquery/jquery-ui.js}"></script>
+<script th:src="@{/js/main.js}"></script>
+
+<title>Hello World!</title>
+
+</head>
+<body id="sec-admin">
+	<nav id="myNavbar" class="navbar navbar-inverse"
+		style="box-shadow: 2px 2px 4px 1px #C8C8C8;" role="navigation">
+		<div class="container">
+			<!-- Hospital Nav Header  -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<div class="col-md-4 col-lg-4 ">
+
+					<img th:src="@{/images/login_bground1.jpg}"
+						style="width: 124px; margin-top: 12px;" />
+				</div>
+				<div class="col-md-12 col-lg-12 "
+					style="margin-top: 14px; width: 460px;">
+					<span style="margin-top: 14px; font-size: 17px; font-weight: bold;">Kan
+						Thar Yar International Specialist Hospital</span>
+				</div>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse"
+				id="navbar-collapse">
+				<ul class=" navbar-nav navbar-right">
+					<!-- Home nav link -->
+					<li><div id="j_id15" class="Header-buttons">
+							<a href="#"> <img th:src="@{/images/classic/home.png}"
+								style="width: 20px;" /> <span
+								style="font-size: 12px; color: #000; line-height: 44px; margin-bottom: -3px;">HOME</span>
+							</a>
+						</div></li>
+					<!-- Task nav link -->
+					<li>
+						<div class="Header-buttons" id=" j_id18">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item dropdown">
+									<div id="j_id18:j_id19" class="Header-buttons">
+										<a class="nav-link dropdown-toggle" href="#"
+											id="navbarDropdownMenuLink" role="button"
+											data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false"> <img
+											th:src="@{/images/classic/tasks.png}" style="width: 20px;" />
+											<span
+											style="font-size: 12px; color: #000; line-height: 44px; margin-bottom: -3px;">TASK</span>
+										</a>
+									</div>
+									<div class="dropdown-menu"
+										aria-labelledby="navbarDropdownMenuLink">
+										<ul>
+											<li><div id="j_id18:j_id21" class="Header-buttons">
+													<a href="#"> <img th:src="@{/images/classic/home.png}"
+														style="width: 20px;" /> <span
+														style="margin-bottom: -6px; width: 111px; line-height: 34px; text-align: left; color: #000;">Alerts</span>
+														<span
+														style="margin-bottom: -6px; background: rgb(121, 121, 121); width: 180%; border-radius: 7px; color: #fff; margin: 18px">0</span>
+													</a>
+												</div></li>
+											<li><div id="j_id18:j_id23" class="Header-buttons">
+													<a href="#"> <img th:src="@{/images/classic/home.png}"
+														style="width: 20px;" /> <span
+														style="margin-bottom: -6px; width: 111px; line-height: 34px; text-align: left; color: #000;">Pending
+															Tasks</span> <span
+														style="margin-bottom: -6px; background: rgb(121, 121, 121); width: 180%; border-radius: 7px; color: #fff; margin: 18px">0</span>
+													</a>
+												</div></li>
+											<li><div id="j_id18:j_id25" class="Header-buttons">
+													<a href="#"> <img th:src="@{/images/classic/home.png}"
+														style="width: 20px;" /> <span
+														style="margin-bottom: -6px; width: 111px; line-height: 34px; text-align: left; color: #000;">Group
+															Tasks</span> <span
+														style="margin-bottom: -6px; background: rgb(121, 121, 121); width: 180%; border-radius: 7px; color: #fff; margin: 18px">0</span>
+													</a>
+												</div></li>
+										</ul>
+									</div>
+								</li>
+								<!-- Quick links nav link -->
+								<li><div id="j_id15" class="Header-buttons">
+										<a href="#"> <img
+											th:src="@{/images/classic/quick link.png}"
+											style="width: 20px;" /> <span
+											style="font-size: 12px; color: #000; line-height: 44px; margin-bottom: -3px;">QUICK
+												LINKS</span>
+										</a>
+									</div></li>
+								<!-- Reports Alerts nav link -->
+								<li><div id="j_id15" class="Header-buttons">
+										<a href="#"> <img th:src="@{/images/classic/home.png}"
+											style="width: 20px;" /> <span
+											style="font-size: 12px; color: #000; line-height: 44px; margin-bottom: -3px;">REPORT
+												ALERTS</span>
+										</a>
+									</div></li>
+								<!-- Settings nav link -->
+								<li><div id="j_id15" class="Header-buttons">
+										<a href="#"> <img th:src="@{/images/classic/settings.png}"
+											style="width: 20px;" /> <span
+											style="font-size: 12px; color: #000; line-height: 44px; margin-bottom: -3px;">SETTINGS</span>
+										</a>
+									</div></li>
+								<!-- Dashboard nav link -->
+								<li><div id="j_id15" class="Header-buttons">
+										<a href="#"> <img
+											th:src="@{/images/classic/dashboard.png}"
+											style="width: 20px;" /> <span
+											style="font-size: 12px; color: #000; line-height: 44px; margin-bottom: -3px;">DASHBOARD</span>
+										</a>
+									</div></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hospital Nav Header End -->
+
+	<table style="float: left; margin-top: -19px;">
+		<tbody>
+			<tr>
+				<td><img th:src="@{/images/home_bc.png}" /></td>
+				<td
+					style="font-family: Helvetica, sans-serif; font-size: 13px; color: #000; padding: 1px;">Registration</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<table style="float: right; margin-top: -19px;">
+		<tbody>
+			<tr>
+				<td>
+					<div
+						style="width: 100%; padding-left: 5px; padding-right: 5px; background: #000;"
+						class="login-user-data">Cardiology Department</div>
+				</td>
+				<td>
+					<div
+						style="display: inline-flex; margin-left: -2px; background: #000; padding-left: 5px; padding-right: 5px; text-align: left;"
+						class="login-user-data">
+						admin
+						<div>
+							<img th:src="@{/images/sort_down.gif}" />
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<div id="content">
+		<table id="navigationHeader"
+			style="border: 0px solid #FF0000; padding-right: 15px; z-index: -999; width: 100%;">
+			<tbody>
+				<tr>
+					<td class="alignLeft"><span
+						style="border-bottom: 1px solid #CCCCCC; height: 25px;"></span></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<!-- class=panel red border -->
+		<div class="panel" style="border-color: #f56076;">
+			<!-- heading red color start -->
+			<div class="panel-heading"
+				style="background-color: #f56076; border-color: #f56076;">
+				<div class="panel-title" style="color: #fff; font-size: 16px;">
+					<div class="row">
+
+						<div class="col-md-8 col-lg-8">
+							<div>Registration Type : General</div>
+						</div>
+
+						<div class="col-md-1 col-lg-1">New</div>
+
+
+						<div class="col-md-3 col-lg-3">
+							<a id="navigation:registrationList" href="#"
+								style="text-decoration: underline; font-weight: normal; color: #fff; font-size: 13px;">Registered
+								Patients List</a> <img alt="" class="rich-spacer " height="3"
+								id="navigation:j_id1146" src="#" width="20"><a href="#"
+								style="font-weight: normal; color: #fff; font-size: 13px;">Start
+								registration</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- heading red color end-->
+			<!-- MRNO div -->
+			<div class="container" style="border-radius: 5px; border: none;">
+				<div class="clearfix"></div>
+				<div class="form-horizontal row-border" id="patient-mrn"
+					style="display: inline-block;">
+					<div class="form-group" style="margin-bottom: 0px;">
+
+						<div class="col-md-3 col-sm-12 pad-0">
+							<label class="col-sm-6 control-label pad-3"> MRNO</label>
+							<div class="col-sm-6 pad-3">
+								<input id="navigation:mrnoId" type="text"
+									name="navigation:mrnoId" class="form-control"
+									readonly="readonly"> <input id="navigation:j_id1152"
+									name="navigation:j_id1152" type="image"
+									th:src="@{/images/spacer.gif}">
+							</div>
+						</div>
+						<!-- Reg date div start-->
+						<div class="col-md-3 pad-0">
+							<label class="col-sm-6 control-label pad-3">Reg.Date</label>
+							<div class="col-sm-6 pad-3">
+								<span id="navigation:messageregisDate" class="rich-message"><span
+									class="rich-message-label"></span></span>
+								<div style="margin-top: 7px;">
+									:<span class="outputTextStyle"> <script>
+										document.write(new Date()
+												.toLocaleDateString());
+									</script></span>
+								</div>
+							</div>
+						</div>
+						<!-- Reg date div end -->
+						<div class="col-md-3 col-sm-12 pad-0 ">
+							<label class="col-sm-6 control-label pad-3">Patient Type
+								<span class="text-red"> * </span>
+							</label>
+							<div class="col-sm-6 pad-3">
+								<select id="navigation:patientType"
+									name="navigation:patientType" size="1" class="form-control">
+									<option value="">-- Select --</option>
+									<option value="180" selected="selected">General</option>
+									<option value="1004128">International</option>
+								</select><span id="navigation:messagepatientType" class="rich-message"><span
+									class="rich-message-label"></span></span>
+							</div>
+						</div>
+						<!-- Patient Type div end -->
+						<div class="col-md-3 pad-0">
+							<label class="col-sm-6 control-label pad-3">Language</label>
+							<div class="col-sm-6 pad-3">
+								<select id="navigation:language" name="navigation:language"
+									class="form-control" size="1"
+									onchange="A4J.AJAX.Submit('navigation',event,{'similarityGroupingId':'navigation:j_id1212','parameters':{'navigation:j_id1212':'navigation:j_id1212'} ,'containerId':'navigation:j_id1209'} )"
+									disabled="disabled">
+									<option value="en">English</option>
+									<option value="ar">Arabic</option>
+								</select>
+							</div>
+						</div>
+						<!-- Language div end -->
+					</div>
+				</div>
+				<!-- Mrno div end -->
+				<!-- Patient div start -->
+				<form method="POST" th:object="${patient}" action="/patient">
+					<div id="navigation:registrationPageDivs">
+
+						<div id="navigation:hideform1" class="hideform1 showDiv">
+							<div class="panel-body" id="form1">
+								<div id="navigation:j_id1235">
+									<div class="form-horizontal row-border">
+										<div class="form-group">
+											<div class="col-md-12">
+												<h4>Patient</h4>
+											</div>
+											<div class="col-md-3 col-sm-12 pad-0">
+												<label for="navigation:firstName"
+													class="col-sm-6 control-label pad-3">Prefix<span
+													class="textColorRed">*</span></label>
+												<div class="col-sm-6 pad-3">
+													<select th:field="*{prefix}" id="prefix" name="prefix"
+														size="1" style="display: initial; width: 85%;">
+														<option value="">-- Select --</option>
+														<option th:each="g : ${prefixs}" th:value="${g.id}"
+															th:text="${g.prefix}"></option>
+													</select> <input id="navigation:addId" name="navigation:addId"
+														style="margin-right: -17px;" type="image"
+														th:src="@{/images/add.png}">
+												</div>
+											</div>
+
+											<div class="col-md-3 col-sm-12 pad-0 ">
+												<label class="col-sm-6 control-label pad-3">Patient
+													Name <span class="textColorRed">*</span>
+												</label>
+												<div class="col-sm-6 pad-3">
+													<input id="firstName" th:field="*{firstName}"
+														name="firstName" type="text" value="" maxlength="20"
+														class="form-control">
+												</div>
+											</div>
+											<div class="col-md-3 pad-0">
+												<label class="col-sm-6 control-label pad-3">Middle
+													Name </label>
+												<div class="col-sm-6 pad-3">
+													<input id="middleName" th:field="*{middleName}"
+														name="middleName" type="text" value="" maxlength="20"
+														class="form-control">
+
+												</div>
+											</div>
+											<div class="col-md-3 pad-0">
+												<label class="col-sm-6 control-label pad-3">Last
+													Name </label>
+												<div class="col-sm-6 pad-3">
+													<input id="lastName" name="lastName" th:field="*{lastName}"
+														type="text" value="" maxlength="20" class="form-control">
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-3 col-sm-12 pad-0 ">
+												<label class="col-sm-6 control-label pad-3">Father
+													Name</label>
+												<div class="col-sm-6 pad-3">
+													<input id="fatherName" name="fatherName"
+														th:field="*{fatherName}" type="text" value="" maxlength="20"
+														class="form-control">
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-3 pad-0">
+												<label class="col-sm-6 control-label pad-3"> Gender<span
+													class="text-red"> * </span>
+												</label>
+												<div class="col-sm-6 pad-3">
+													<div></div>
+													<select id="gender" th:field="*{gender}" name="gender"
+														class="form-control" size="1">
+														<option value="" selected="selected">-- Select --</option>
+														<option
+															th:each="gender : ${T(com.SpringReg.model.Gender).values()}"
+															th:value="${gender}" th:text="${gender}"></option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-3 pad-0 ">
+												<label class="col-sm-6 control-label pad-3"> Marital
+													Status<span class="textColorRed"></span> <!--<span class="text-red"> * </span> -->
+												</label>
+												<div class="col-sm-6 pad-3">
+													<select id="maritalStatus" th:field="*{maritalStatus}"
+														name="maritalStatus" class="form-control" size="1">
+
+														<option value="" selected="selected">-- Select --</option>
+														<option
+															th:each="maritalStatus : ${T(com.SpringReg.model.MaritalStatus).values()}"
+															th:value="${maritalStatus}" th:text="${maritalStatus}"></option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-3 pad-0">
+												<label class="col-sm-6 control-label pad-3">DOB<span
+													class="textColorRed">*</span> <!--   <span class="text-red"> * </span>  -->
+												</label>
+												<div class="col-sm-6 pad-3">
+													<span id="navigation:patRegDOBPopup"><input
+														class="rich-calendar-input " id="dob" name="dob"
+														style="vertical-align: middle; display: inline-table; width: 81%; height: 26px; padding: 6px 12px; font-size: 14px; line-height: 1.428571429; color: #555555; vertical-align: middle; background-image: none; border: 1px solid #cccccc; border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);"
+														type="text"><img alt=""
+														class="rich-calendar-button "
+														id="navigation:patRegDOBPopupButton"
+														style="vertical-align: middle" src="#"><input
+														autocomplete="off"
+														id="navigation:patRegDOBInputCurrentDate"
+														name="navigation:patRegDOBInputCurrentDate"
+														style="display: none" type="hidden"></span>
+													<div id="navigation:patRegDOBIFrame" style="display: none;"></div>
+
+												</div>
+											</div>
+											<div class="col-md-3 pad-0">
+												<label class="col-sm-6 control-label pad-3"
+													for="navigation:age"> Age</label>
+
+
+												<div class="col-sm-6 pad-3">
+													<table>
+														<tbody>
+															<tr>
+																<td style="width: 35%;"><input id="age" name="age"
+																	type="text" value=""
+																	style="margin-top: -17px; padding: 0px;"
+																	class="form-control"></td>
+																<td><select id="ageUnit" name="ageUnit" size="1"
+																	style="height: 33px; padding: 0px;"
+																	class="form-control">
+																		<option value="" id="year" selected="selected">Years</option>
+
+																</select>&nbsp;<span id="navigation:messageage"
+																	class="rich-message"><span
+																		class="rich-message-label"></span></span></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div th:if="${patient.id == null}">
+
+							<button type="submit" class="btn btn-primary">Create</button>
+						</div>
+
+						<div th:if="${patient.id }">
+
+							<button type="submit" class="btn btn-primary">Update</button>
+						</div>
+
+					</div>
+				</form>
+			</div>
+
+
+			<!-- class=panel red border end-->
+		</div>
+
+
+	</div>
+
+
+</body>
+</html>

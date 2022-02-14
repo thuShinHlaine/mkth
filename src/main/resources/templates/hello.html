@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link th:href="@{css/bootstrap/jquery-ui.css}" rel="stylesheet" />
+<script th:src="@{js/jquery/jquery-3.6.0.js}"></script>
+<script th:src="@{js/jquery/jquery-ui.js}"></script>
+
+
+<script type="text/javascript">
+
+	$(document)
+			.ready(
+					function() {
+						$('#dob')
+								.datepicker(
+										{
+											onSelect : function(value, ui) {
+												var today = new Date(), dob = new Date(
+														value), age = today
+														.getFullYear()
+														- ui.selectedYear;
+												var age_year = Math
+														.floor((today - dob) / 31536000000);
+												var age_month = Math
+														.floor(((today - dob) % 31536000000) / 2628000000);
+												var age_day = Math
+														.floor((((today - dob) % 31536000000) % 2628000000) / 86400000);
+
+												 $('#age').text(age_year);
+												$('#month').text(age_month);
+												$('#day').text(age_day); 
+												 $('#age').val(age_year +" years");
+												$('#month').val(age_month+ " month");
+												$('#day').val(age_day+" days");
+												 
+												
+													
+
+											},
+											maxDate : '+0d',
+											yearRange : '1910:2022',
+											changeMonth : true,
+											changeYear : true
+										});
+					});
+	
+	
+	
+</script>
+
+<title>Hello World!</title>
+</head>
+<body>
+	<h2 class="hello-title" th:text="'Hello, ' + ${name} + '!'"></h2>
+	<input id="dob" type="text" />
+	<input type="text" id="age" value="">
+
+	<input type="text" id="month" value="">
+
+	<input type="text" id="day" value="">
+	<p>
+		<script>
+			document.write(new Date().toLocaleDateString());
+		</script>
+	</p>
+
+	
+
+</body>
+</html>

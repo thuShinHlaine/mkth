@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>ZeroFill</title>
+<link th:href="@{css/bootstrap/jquery-ui.css}" rel="stylesheet" />
+<script th:src="@{js/jquery/jquery-3.6.0.js}"></script>
+<script th:src="@{js/jquery/jquery-ui.js}"></script>
+<script th:src="@{/js/main.js}"></script>
+
+</head>
+<body>
+
+	<div class="col-4">
+		<h2>ZeroFill</h2>
+		<form method="POST" th:object="${test}" action="/test">
+			<input type="hidden" th:field="*{id}" class="form-control" id="id" />
+			<div class="form-group">
+				<label for="name">Name</label> <input type="text" th:field="*{name}"
+					class="form-control" />
+
+			</div>
+			<input id="dob" name="dob" type="text" />
+			<table>
+		<tbody>
+			<tr>
+				<td style="width: 35%;"><input id="age" name="age" type="text" value=""
+					style="margin-top: -17px; padding: 0px;" class="form-control"></td>
+				<td><select id="ageUnit" name="ageUnit"
+					size="1" style="height: 33px; padding: 0px;" class="form-control">
+						<option value="" id="year" selected="selected">Years</option>
+						
+				</select>&nbsp;<span id="navigation:messageage" class="rich-message"><span
+						class="rich-message-label"></span></span></td>
+			</tr>
+		</tbody>
+	</table>
+
+					
+			<div class="form-group">
+				<div th:if="${test.id == null}">
+
+					<button type="submit" class="btn btn-primary">Create</button>
+				</div>
+
+				<div th:if="${test.id }">
+
+					<button type="submit" class="btn btn-primary">Update</button>
+				</div>
+
+			</div>
+		</form>
+	</div>
+
+
+</body>
+</html>
